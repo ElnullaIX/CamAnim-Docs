@@ -1,8 +1,3 @@
----
-author: Joel Marcey
----
-
-
 import DocCardList from '@theme/DocCardList';
 
 # CAHppe Intro
