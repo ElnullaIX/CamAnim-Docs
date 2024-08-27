@@ -47,6 +47,6 @@ And publish! (VRCFury will setup all FX and Parameter for you itself)
 
 ![gif](@site/static/img/4.gif)
 
-// FULL TUTORIAL VIDEOS HERE
+<!-- // FULL TUTORIAL VIDEOS HERE -->
 
 Edited by TachDeaf

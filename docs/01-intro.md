@@ -67,7 +67,7 @@ ___
 - Setting
 - And more!
 
-PICTURES HERE
+<!-- //PICTURES HERE -->
 
 :::note
 
