@@ -27,15 +27,15 @@ It's in Assets / Hppedeaf / Camera Animation / Manual
 
 <!-- //GIF HERE -->
 
-- grab the "CA Target" and drag to drop in your right or left hand from your Armature bones
+- grab the "Hand Waypoints" and drag to drop in your right or left hand from your Armature bones
 
 <!-- //GIF HERE -->
 
-- and check the CA Target location in scene to making sure it's near your index finger.
+- and check the Hand Waypoints location in scene to making sure it's near your index finger.
 
 <!-- //GIF HERE -->
 
-- Change View as Local. check your CA Target in the scene to ensure the arrow is blue face toward from your finger index
+- Change View as Local. check your Hand Waypoints in the scene to ensure the arrow is blue face toward from your finger index
 
 <!-- //GIF HERE -->
 

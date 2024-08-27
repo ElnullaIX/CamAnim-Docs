@@ -33,8 +33,8 @@ Grab and drag CAHppe linked VRCLens Prefab of RIGHT HAND or LEFT HAND (whatever 
 
 ___
 <p></p>
-### 4. "CA Target"
-In CA prefab, select “CA Target” if you can see the blue ball and move it to near your Index Finger
+### 4. "Hand Waypoints"
+In CA prefab, select “Hand Waypoints” if you can see the blue ball and move it to near your Index Finger
 
 
 ___
