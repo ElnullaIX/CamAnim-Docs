@@ -20,6 +20,13 @@ function HomepageHeader() {
           <div className={styles.buttons} style={{margin: '0px 10px'}}>
             <Link
               className="button button--secondary button--lg"
+              to="/docs/intro">
+              CAHppe Intro
+            </Link>
+          </div>
+          <div className={styles.buttons} style={{margin: '0px 10px'}}>
+            <Link
+              className="button button--secondary button--lg"
               to="/docs/Installations/Standard">
               Installation
             </Link>
@@ -28,14 +35,7 @@ function HomepageHeader() {
             <Link
               className="button button--secondary button--lg"
               to="/docs/How-To-Use/Standard">
-              How To Use
-            </Link>
-          </div>
-          <div className={styles.buttons} style={{margin: '0px 10px'}}>
-            <Link
-              className="button button--secondary button--lg"
-              to="docs/How-To-Use/OSC">
-              OSC
+              How to use
             </Link>
           </div>
         </div>

@@ -84,19 +84,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Installation',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'How to use',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'OSC',
+            label: 'CAHppe Intro',
           },
         ],
       },
@@ -107,16 +95,16 @@ const config = {
             title: 'Docs',
             items: [
               {
+                label: 'CAHppe Intro',
+                to: '/docs/Installations/Standard',
+              },
+              {
                 label: 'Installation',
                 to: '/docs/Installations/Standard',
               },
               {
                 label: 'How to use',
                 to: '/docs/How-To-Use/Standard',
-              },
-              {
-                label: 'OSC',
-                to: 'docs/How-To-Use/OSC',
               },
             ],
           },
