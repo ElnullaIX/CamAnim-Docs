@@ -41,8 +41,6 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/hppedeaf/Camera-Animation-Hppe-Docs/tree/main/',
-          
-          showLastUpdateAuthor: true,
         },
         blog: {
           blogTitle: 'Updates',
