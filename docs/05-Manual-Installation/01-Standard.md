@@ -68,7 +68,7 @@ It's in Assets / Hppedeaf / Camera Animation / Control
 
 <!-- //GIF HERE -->
 
-<!-- //FULL TUTORIAL VIDEO HERE -->
+<!-- //FULL TUTORIAL VIDEO HERE BRUH -->
 
 :::note
 

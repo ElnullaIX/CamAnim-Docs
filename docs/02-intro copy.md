@@ -34,5 +34,3 @@ Download the latest VRCFury -> [The VRCFury Website](https://vrcfury.com/downloa
 if you prefer doing manual, please check [the Manual Installations](./Manual-Installation/Standard) instead.
 
 :::
-
-Edited by TachDeaf
