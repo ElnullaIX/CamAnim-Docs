@@ -9,19 +9,19 @@
 
 Because the Camera Animation is connected to a VRC Camera, that need to look at your face.
 
-![gif](@site/static/img/LookAtMeBehaviour.gif)
+![gif](@site/static/img/LookAtMeBehaviour.webp)
 :::
 ## ◆ Camera Animation
 
 ### Enabled
 It's a toggle that enabled the Camera Animation!
 
-![gif](@site/static/img/Enabled.gif)
+![gif](@site/static/img/Enabled.webp)
 
 ### Waypoints
 Set any location to create a path for the camera animation to follow and capture!
 
-![gif](@site/static/img/WayPoints.gif)
+![gif](@site/static/img/WayPoints.webp)
 
 :::tip
 
@@ -31,27 +31,27 @@ Press and hold the button to place the waypoint, then release the button when do
 ### Play
 When you've set the waypoint locations and press play, the camera will start following the waypoint path!
 
-![gif](@site/static/img/Play.gif)
+![gif](@site/static/img/Play.webp)
 
 ### Pause
 When the camera is following waypoints, you can pause it midway, and the camera will pause at that point!
 
-![gif](@site/static/img/Pause.gif)
+![gif](@site/static/img/Pause.webp)
 
 ### Stop
 When you're done with the camera, press stop. The camera will stop and return to the beginning of the path.
 
-![gif](@site/static/img/Stop.gif)
+![gif](@site/static/img/Stop.webp)
 
 ### Setting
 Open the [settings](Standard#-setting) to camera options such as speed, zoom, and Look-at, etc.
 
-![gif](@site/static/img/Settings.gif)
+![gif](@site/static/img/Settings.webp)
 
 ### Mode System
 Open the Camera Modes to choose a [system](Standard#mode-system), such as Orbit or Center Player.
 
-![gif](@site/static/img/ModeSystem.gif)
+![gif](@site/static/img/ModeSystem.webp)
 
 ___
 
@@ -63,7 +63,7 @@ Options for the camera. Changing the [background](Standard#background), hiding [
 ### Speed
 Change the camera path movement speed; you can set it to be slow or fast.
 
-![gif](@site/static/img/Speed.gif)
+![gif](@site/static/img/Speed.webp)
 
 ### Loop
 The camera will continue to loop from start to end.
@@ -83,7 +83,7 @@ Set the camera to continuously look at the Romate player during movement.
 ### Reset
 Reset to remove all waypoints.
 
-![gif](@site/static/img/Reset.gif)
+![gif](@site/static/img/Reset.webp)
 :::tip
 
 Press the Reset button and hold for 3 sec.
@@ -101,27 +101,27 @@ ___
 ### Local Player
 Hide the Local Player
 
-![gif](@site/static/img/LocalUser.gif)
+![gif](@site/static/img/LocalUser.webp)
 
 ### Remote Player
 Hide the Remote Player
 
-![gif](@site/static/img/RemoteUser.gif)
+![gif](@site/static/img/RemoteUser.webp)
 
 ### Background
 Disable the Background
 
-![gif](@site/static/img/Background.gif)
+![gif](@site/static/img/Background.webp)
 
 ### Background Colour
 Change the Background Color _(Only applicable when the background is disabled.)_
 
-![gif](@site/static/img/BackgroundColour.gif)
+![gif](@site/static/img/BackgroundColour.webp)
 
 ### Mode Portrait
 Can switching between portrait and landscape modes.
 
-![gif](@site/static/img/Portrait.gif)
+![gif](@site/static/img/Portrait.webp)
 
 ___
 
