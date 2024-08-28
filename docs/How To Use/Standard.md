@@ -157,7 +157,7 @@ Circle Around the Player
 ### [Player](Standard#-centre-player)
 Waypoints Travel with the Player
 
-### OSC
+### [OSC](OSC)
 This will only appear if you have the app open. OSC will toggled on by itself.
 :::warning
 
