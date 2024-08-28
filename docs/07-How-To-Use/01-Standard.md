@@ -73,8 +73,6 @@ The camera will continue to loop from start to end.
 ### Zoom
 The camera will zoom in or out.
 
-![gif](@site/static/img/Zoom.gif)
-
 ![gif](@site/static/img/Zoom.webp)
 
 ### Look at player
