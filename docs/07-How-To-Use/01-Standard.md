@@ -52,44 +52,64 @@ ___
 ## ◆ Setting
 
 ### Camera Envirment
+Options for the camera. Changing the background, hiding local or remote users, and switching between portrait and landscape modes.
 
 ### Speed
+Change the camera path movement speed; you can set it to be slow or fast.
 
 ### Loop
+The camera will continue to loop from start to end.
 
 ### Zoom
+The camera will zoom in or out.
 
 ### Look at player
+Set the camera to continuously look at the Local player during movement.
 
 ### Look at Drop
+Set the camera to continuously look at the spot during movement.
 
 ### Look at Remote Player
+Set the camera to continuously look at the Romate player during movement.
 
 ### Reset
+Reset to remove all waypoints.
+:::tip
 
+You can remove each waypoints by pressing and holding the button for the waypoint number you want to delete. Then, move it close to another hand to remove it.
+
+:::
 ___
 
 ## ◆ Camera Eniverment
 
 ### Local Player
+Hide the Local Player
 
 ### Remote Player
+Hide the Remote Player
 
 ### Background
+Disable the Background
 
 ### Background Colour
+Change the Background Color _(Only applicable when the background is disabled.)_
 
 ### Mode Portrait
+Can switching between portrait and landscape modes.
 
 ___
 
 ## ◆ Mode System
 
 ### Orbit
+Circle Around the Player
 
 ### Player
+Waypoints Travel with the Player
 
 ### OSC
+This will only appear if you have the app open. OSC will toggled on by itself.
 :::warning
 
 ### OSC needs an app to function, and it is currently under construction.
@@ -101,29 +121,39 @@ ___
 ## ◆ Orbit
 
 ### Orbit Enabled
+Enable Orbit Around the Player
 
 ### Reset Place
+Center on the Player
 
-### Attrach Player
+### Attach Player
+Attach to the Player
 
 ___
 
 ## ◆ Orbit Setting
 
 ### Height
+Set Camera Height
 
 ### Diameter
+Set Camera Diameter
 
 ### Look at player
+Set Camera to Look at the Player
 
 ### look at drop
+Set Camera to Look at Drop Spot
 
 ### Orbit Free Active
+Enable Free Orbit Mode
 
 ### Orbit Free
+Move Anywhere with Free Orbit
 
 ___
 
 ## ◆ Centre Player
 
 ### Centre Player Enabled
+Enable Centre on Player
