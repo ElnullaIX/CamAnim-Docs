@@ -44,12 +44,12 @@ When you're done with the camera, press stop. The camera will stop and return to
 ![gif](@site/static/img/Stop.gif)
 
 ### Setting
-Open the settings to camera options such as speed, zoom, and Look-at, etc.
+Open the [settings](Standard#-setting) to camera options such as speed, zoom, and Look-at, etc.
 
 ![gif](@site/static/img/Settings.gif)
 
 ### Mode System
-Open the Camera Modes to choose a system, such as Orbit or Center Player.
+Open the Camera Modes to choose a [system](Standard#mode-system), such as Orbit or Center Player.
 
 ![gif](@site/static/img/ModeSystem.gif)
 
@@ -58,7 +58,7 @@ ___
 ## ◆ Setting
 
 ### Camera Envirment
-Options for the camera. Changing the background, hiding [local](Standard#local-player) or remote users, and switching between portrait and landscape modes.
+Options for the camera. Changing the [background](Standard#background), hiding [local](Standard#local-player) or [remote users](Standard#remote-player), and switching between [portrait](Standard#mode-portrait) and landscape modes.
 
 ### Speed
 Change the camera path movement speed; you can set it to be slow or fast.
