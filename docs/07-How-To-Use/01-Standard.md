@@ -2,6 +2,7 @@
 **⚠️ Ensure set behaviour on VRC Camera “look at me” when using Camera Animation ⚠️**
 
 Because the Camera Animation is connected to a VRC Camera, that need to look at your face.
+
 ![gif](@site/static/img/LookAtMeBehaviour.gif)
 :::
 :::warning
@@ -18,6 +19,7 @@ It's a toggle that enabled the Camera Animation!
 
 ### Waypoints
 Set any location to create a path for the camera animation to follow and capture!
+
 ![gif](@site/static/img/waypoints.gif)
 
 :::tip
@@ -27,14 +29,17 @@ Press and hold the button to place the waypoint, then release the button when do
 :::
 ### Play
 When you've set the waypoint locations and press play, the camera will start following the waypoint path!
+
 ![gif](@site/static/img/Play.gif)
 
 ### Pause
 When the camera is following waypoints, you can pause it midway, and the camera will pause at that point!
+
 ![gif](@site/static/img/Pause.gif)
 
 ### Stop
 When you're done with the camera, press stop. The camera will stop and return to the beginning of the path.
+
 ![gif](@site/static/img/Stop.gif)
 
 ### Setting
@@ -57,6 +62,8 @@ Options for the camera. Changing the background, hiding local or remote users, a
 ### Speed
 Change the camera path movement speed; you can set it to be slow or fast.
 
+![gif](@site/static/img/Speed.gif)
+
 ### Loop
 The camera will continue to loop from start to end.
 
@@ -74,6 +81,13 @@ Set the camera to continuously look at the Romate player during movement.
 
 ### Reset
 Reset to remove all waypoints.
+
+![gif](@site/static/img/Reset.gif)
+:::tip
+
+Press the Reset button and hold for 3 sec.
+
+:::
 :::tip
 
 You can remove each waypoints by pressing and holding the button for the waypoint number you want to delete. Then, move it close to another hand to remove it.
@@ -86,17 +100,27 @@ ___
 ### Local Player
 Hide the Local Player
 
+![gif](@site/static/img/LocalUser.gif)
+
 ### Remote Player
 Hide the Remote Player
+
+![gif](@site/static/img/RemoteUser.gif)
 
 ### Background
 Disable the Background
 
+![gif](@site/static/img/Background.gif)
+
 ### Background Colour
 Change the Background Color _(Only applicable when the background is disabled.)_
 
+![gif](@site/static/img/BackgroundColour.gif)
+
 ### Mode Portrait
 Can switching between portrait and landscape modes.
+
+![gif](@site/static/img/Portrait.gif)
 
 ___
 
