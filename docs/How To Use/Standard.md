@@ -74,17 +74,27 @@ Change the camera path movement speed; you can set it to be slow or fast.
 ### Loop
 The camera will continue to loop from start to end.
 
+![gif](@site/static/img/Loop.webp)
+
 ### Zoom
 The camera will zoom in or out.
+
+![gif](@site/static/img/Zoom.webp)
 
 ### Look at player
 Set the camera to continuously look at the Local player during movement.
 
+![gif](@site/static/img/LookAtPlayer.webp)
+
 ### Look at Drop
 Set the camera to continuously look at the spot during movement.
 
+![gif](@site/static/img/LookAtDrop.webp)
+
 ### Look at Remote Player
 Set the camera to continuously look at the Romate player during movement.
+
+![gif](@site/static/img/LookAtRemotePlayer.webp)
 
 ### Reset
 Reset to remove all waypoints.
