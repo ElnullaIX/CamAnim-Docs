@@ -42,7 +42,7 @@ ___
 "You can use Camera Animation without VRCLens but if you want CA linked with VRCLens, you need get it from their Gumroad"
 
 :::
-:::danger
+:::danger IMPORTANT!
 **⚠️ Ensure set behaviour on VRC Camera “look at me” when using Camera Animation ⚠️**
 
 Because the Camera Animation is connected to a VRC Camera, that need to look at your face.
