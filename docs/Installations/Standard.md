@@ -14,6 +14,8 @@ Get your avatar ready (Caution, To ensure your avatar need free of parameter 34 
 
 Or 0 bits if you prefer everything to be local only, as other remote players won't be able to see your CA assets.
 
+`Assets/Hppedeaf/Camera Animation v2/Control/Local`
+
 :::
 ___
 
@@ -23,7 +25,7 @@ Go to find folder of Camera Animation
 :::tip
 
 "I can't find where folder?"
-It's in Assets / Hppedeaf / Camera Animation v2
+It's in `Assets/Hppedeaf/Camera Animation v2`
 
 :::
 ___
@@ -39,7 +41,7 @@ In CA prefab, select “Hand Waypoints” if you can see the blue ball and move 
 
 ![gif](@site/static/img/2.gif)
 
-:::tip
+:::tip A-Pose
 
 If your avatar is in A-Pose, use this instead. Make sure the blue arrow is facing forward.
 ![gif](@site/static/img/3.gif)

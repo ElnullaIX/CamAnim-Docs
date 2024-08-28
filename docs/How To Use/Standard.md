@@ -10,7 +10,7 @@ sidebar_position: 1
 
 :::
 
-:::danger
+:::danger important
 **⚠️ Ensure set behaviour on VRC Camera “look at me” when using Camera Animation ⚠️**
 
 Because the Camera Animation is connected to a VRC Camera, that need to look at your face.
@@ -95,6 +95,12 @@ Set the camera to continuously look at the spot during movement.
 Set the camera to continuously look at the Romate player during movement.
 
 ![gif](@site/static/img/LookAtRemotePlayer.webp)
+
+:::tip
+
+Click the button, place it on the remote player's chest location, and drop in for 1 second to attach it to the remote player.
+
+:::
 
 ### Reset
 Reset to remove all waypoints.

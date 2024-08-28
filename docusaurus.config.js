@@ -106,7 +106,7 @@ const config = {
               },
               {
                 label: 'How to use',
-                to: '/docs/How-To-Use/Standard',
+                to: '/docs/How To Use/Standard',
               },
             ],
           },
