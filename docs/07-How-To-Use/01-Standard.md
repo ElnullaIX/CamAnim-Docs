@@ -68,7 +68,7 @@ Change the camera path movement speed; you can set it to be slow or fast.
 ### Loop
 The camera will continue to loop from start to end.
 
-![gif](@site/static/img/Loop.gif)
+![gif](@site/static/img/Loop.webp)
 
 ### Zoom
 The camera will zoom in or out.
