@@ -20,7 +20,7 @@ It's a toggle that enabled the Camera Animation!
 ### Waypoints
 Set any location to create a path for the camera animation to follow and capture!
 
-![gif](@site/static/img/waypoints.gif)
+![gif](@site/static/img/WayPoints.gif)
 
 :::tip
 
