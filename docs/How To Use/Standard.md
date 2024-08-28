@@ -2,14 +2,6 @@
 title: Standard
 sidebar_position: 1
 ---
-
-
-:::warning
-
-### Few are still under construction and little issues, that need to be fix.
-
-:::
-
 :::danger important
 
 **⚠️ Ensure set behaviour on VRC Camera “look at me” when using Camera Animation ⚠️**
@@ -159,9 +151,9 @@ Waypoints Travel with the Player
 
 ### [OSC](OSC)
 This will only appear if you have the app open. OSC will toggled on by itself.
-:::warning
+:::warning IMPORTANT
 
-### OSC needs an app to function, and it is currently under construction.
+### OSC needs an app to function.
 
 :::
 
@@ -175,12 +167,24 @@ Enable Orbit Around the Player
 ![gif](@site/static/img/OrbitEnabled.webp)
 
 ### Reset Place
-Center on the Player
- :::note
+Centre on the Player
+![gif](@site/static/img/resetplace.webp)
+:::tip
 
- This part is under construction.
+Click the 'Reset Place' button once, and it will reappear at the centre of the user player.
 
- :::
+:::
+:::tip TIP 2
+
+Click and hold the 'Reset Place' button. When the red circle disappears, release the button. It will move to the centre of the world at coordinates (0, 0, 0).
+![gif](@site/static/img/ResetPlace2.webp)
+
+:::
+:::note
+
+It's not our responsibility if any world's coordinates (0, 0, 0) are off-screen or in an unusual place. The responsibility is the creator who made the world.
+
+:::
 
 ### Attach Player
 Attach to the Player
@@ -217,7 +221,7 @@ Move Anywhere with Free Orbit
 ![gif](@site/static/img/OrbitFree.webp)
 :::tip
 
-Change the Height to 0 (Recommended)
+Change the Height to 0 when using Orbit Free. (Recommended)
 
 :::
 
@@ -236,4 +240,3 @@ When you see a red circle on the floor, place the waypoints randomly wherever yo
 
 ![gif](@site/static/img/CentrePlayer.webp)
 
-<!-- All done, I think but one missed, need fix te Reset place -->
