@@ -53,7 +53,7 @@ ___
 ### 6. Connected VRCLens to CA
 Look in CA prefab, open "World Constraint 1" to find "Camera" drag it to drop on DynVR in Parent Constraint sources, click lock in Constraint Setting, Weight default 0 then click the check "is active". (Don't click Activate button)
 
-:::danger
+:::danger IMPORTANT
 
 Seriously. Don't click "Activate button" That'll break the linked!<p></p>
 ![banner](@site/static/img/DontClickIt.png)
