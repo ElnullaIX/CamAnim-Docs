@@ -172,11 +172,20 @@ ___
 ### Orbit Enabled
 Enable Orbit Around the Player
 
+![gif](@site/static/img/OrbitEnabled.webp)
+
 ### Reset Place
 Center on the Player
+ :::note
+
+ This part is under construction.
+
+ :::
 
 ### Attach Player
 Attach to the Player
+
+![gif](@site/static/img/AttachPlayer.webp)
 
 ___
 
@@ -185,20 +194,36 @@ ___
 ### Height
 Set Camera Height
 
+![gif](@site/static/img/Height.webp)
+
 ### Diameter
 Set Camera Diameter
 
-### Look at player
-Set Camera to Look at the Player
+![gif](@site/static/img/Diameter.webp)
 
-### look at drop
-Set Camera to Look at Drop Spot
+### Play (Orbit)
+Press play, the camera will start circle around you!
+
+![gif](@site/static/img/PlayOrbit.webp)
 
 ### Orbit Free Active
 Enable Free Orbit Mode
 
+![gif](@site/static/img/OrbitFreeEnabled.webp)
+
 ### Orbit Free
 Move Anywhere with Free Orbit
+
+![gif](@site/static/img/OrbitFree.webp)
+:::tip
+
+Change the Height to 0 (Recommended)
+
+:::
+
+### Orbit Free Play
+
+![gif](@site/static/img/PlayOrbitFree.webp)
 
 ___
 
@@ -206,3 +231,7 @@ ___
 
 ### Centre Player Enabled
 Enable Centre on Player
+
+When you see a red circle on the floor, place the waypoints randomly wherever you like. Then press 'Attach Player' and click 'Play!'
+
+![gif](@site/static/img/CentrePlayer.webp)
