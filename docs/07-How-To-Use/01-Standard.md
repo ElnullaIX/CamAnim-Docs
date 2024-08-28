@@ -58,7 +58,7 @@ ___
 ## ◆ Setting
 
 ### Camera Envirment
-Options for the camera. Changing the background, hiding local or remote users, and switching between portrait and landscape modes.
+Options for the camera. Changing the background, hiding [local](Standard#local-player) or remote users, and switching between portrait and landscape modes.
 
 ### Speed
 Change the camera path movement speed; you can set it to be slow or fast.
@@ -68,8 +68,14 @@ Change the camera path movement speed; you can set it to be slow or fast.
 ### Loop
 The camera will continue to loop from start to end.
 
+![gif](@site/static/img/Loop.gif)
+
 ### Zoom
 The camera will zoom in or out.
+
+![gif](@site/static/img/Zoom.gif)
+
+![gif](@site/static/img/Zoom.webp)
 
 ### Look at player
 Set the camera to continuously look at the Local player during movement.
