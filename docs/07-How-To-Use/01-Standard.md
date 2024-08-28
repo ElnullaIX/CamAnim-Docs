@@ -78,11 +78,17 @@ The camera will zoom in or out.
 ### Look at player
 Set the camera to continuously look at the Local player during movement.
 
+![gif](@site/static/img/LookAtPlayer.webp)
+
 ### Look at Drop
 Set the camera to continuously look at the spot during movement.
 
+![gif](@site/static/img/LookAtDrop.webp)
+
 ### Look at Remote Player
 Set the camera to continuously look at the Romate player during movement.
+
+![gif](@site/static/img/LookAtRemotePlayer.webp)
 
 ### Reset
 Reset to remove all waypoints.
