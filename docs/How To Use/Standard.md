@@ -65,7 +65,7 @@ ___
 
 ## ◆ Setting
 
-### Camera Envirment
+### Camera Environment
 Options for the camera. Changing the [background](Standard#background), hiding [local](Standard#local-player) or [remote users](Standard#remote-player), and switching between [portrait](Standard#mode-portrait) and landscape modes.
 
 ### Speed
@@ -120,7 +120,7 @@ You can remove each waypoints by pressing and holding the button for the waypoin
 :::
 ___
 
-## ◆ Camera Eniverment
+## ◆ Camera Environment
 
 ### Local Player
 Hide the Local Player
