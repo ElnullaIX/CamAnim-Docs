@@ -6,7 +6,7 @@ sidebar_position: 1
 
 :::warning
 
-### This page is under construction.
+### Few are still under construction and little issues, that need to be fix.
 
 :::
 
@@ -51,13 +51,13 @@ When you're done with the camera, press stop. The camera will stop and return to
 
 ![gif](@site/static/img/Stop.webp)
 
-### Setting
-Open the [settings](Standard#-setting) to camera options such as speed, zoom, and Look-at, etc.
+### [Setting](Standard#-setting)
+Open the settings to camera options such as speed, zoom, and Look-at, etc.
 
 ![gif](@site/static/img/Settings.webp)
 
-### Mode System
-Open the Camera Modes to choose a [system](Standard#mode-system), such as Orbit or Center Player.
+### [Mode System](Standard#-mode-system)
+Open the Camera Modes to choose a system, such as Orbit or Center Player.
 
 ![gif](@site/static/img/ModeSystem.webp)
 
@@ -65,8 +65,8 @@ ___
 
 ## ◆ Setting
 
-### Camera Environment
-Options for the camera. Changing the [background](Standard#background), hiding [local](Standard#local-player) or [remote users](Standard#remote-player), and switching between [portrait](Standard#mode-portrait) and landscape modes.
+### [Camera Environment](Standard#-camera-environment)
+Options for the camera. Changing the background, hiding local or remote users, and switching between portrait and landscape modes.
 
 ### Speed
 Change the camera path movement speed; you can set it to be slow or fast.
@@ -151,10 +151,10 @@ ___
 
 ## ◆ Mode System
 
-### Orbit
+### [Orbit](Standard#-orbit)
 Circle Around the Player
 
-### Player
+### [Player](Standard#-centre-player)
 Waypoints Travel with the Player
 
 ### OSC
