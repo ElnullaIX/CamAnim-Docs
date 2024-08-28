@@ -115,7 +115,7 @@ Press the Reset button and hold for 3 sec.
 :::
 :::tip
 
-You can remove each waypoints by pressing and holding the button for the waypoint number you want to delete. Then, move it close to another hand to remove it.
+You can remove each waypoints by pressing and holding the button for the waypoint number you want to delete. Then, move it close to another hand to remove it. ![gif](@site/static/img/RemoveWaypoint.webp)
 
 :::
 ___
