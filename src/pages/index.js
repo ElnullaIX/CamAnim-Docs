@@ -20,7 +20,7 @@ function HomepageHeader() {
           <div className={styles.buttons} style={{margin: '0px 10px'}}>
             <Link
               className="button button--secondary button--lg"
-              to="/docs/intro">
+              to="/docs/CAHppe Intro">
               CAHppe Intro
             </Link>
           </div>

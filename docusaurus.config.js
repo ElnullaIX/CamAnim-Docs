@@ -98,7 +98,7 @@ const config = {
             items: [
               {
                 label: 'CAHppe Intro',
-                to: '/docs/Installations/Standard',
+                to: '/docs/CAHppe Intro',
               },
               {
                 label: 'Installation',
