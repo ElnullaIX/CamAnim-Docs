@@ -3,7 +3,11 @@ title: CAHppe Intro
 sidebar_position: 1
 ---
 
-import DocCardList from '@theme/DocCardList';
+import ReactPlayer from 'react-player';
+
+import Tabs from '@theme/Tabs';
+
+import TabItem from '@theme/TabItem';
 
 # CAHppe Intro
 :::warning
@@ -12,7 +16,7 @@ import DocCardList from '@theme/DocCardList';
 
 :::
 ___
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NeQeA9TXIA4?si=gNaoekOYeaj9Vvvq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<ReactPlayer playing controls url='https://www.youtube.com/watch?v=NeQeA9TXIA4'/>
 
 ### ◆ Description:
 
