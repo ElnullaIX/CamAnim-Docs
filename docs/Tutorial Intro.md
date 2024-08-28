@@ -35,7 +35,7 @@ Download the latest VRCFury -> [The VRCFury Website](https://vrcfury.com/downloa
 :::
 :::info
 
-if you prefer doing manual, please check [the Manual Installations](./Manual Installation/Standard) instead.
+if you prefer doing manual, please check [the Manual Installations](category/manual-installation) instead.
 
 :::
 <!-- AAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHH!!! -->
