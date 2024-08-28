@@ -10,16 +10,14 @@ sidebar_position: 1
 
 :::
 
-<<<<<<< HEAD
 :::danger important
-=======
-:::danger IMPORTANT
->>>>>>> e3c335d9a9e36fb4eb96083ff3e3b4b1768ff7af
+
 **⚠️ Ensure set behaviour on VRC Camera “look at me” when using Camera Animation ⚠️**
 
 Because the Camera Animation is connected to a VRC Camera, that need to look at your face.
 
 ![gif](@site/static/img/LookAtMeBehaviour.webp)
+
 :::
 ## ◆ Camera Animation
 
