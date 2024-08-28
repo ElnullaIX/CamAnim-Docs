@@ -68,3 +68,4 @@ And publish! (VRCFury will setup all FX and Parameter for you itself)
 
 <!-- // FULL TUTORIAL VIDEOS HERE -->
 
+<!-- When will ready for Beta v2? -->

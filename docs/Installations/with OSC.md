@@ -9,4 +9,4 @@ sidebar_position: 4
 
 :::
 
-<!-- BAAAAAAAAHHHH!!! -->
+<!-- Does this OSC need installation??? Normal Standard already have ready OSC inside..!!! -->
