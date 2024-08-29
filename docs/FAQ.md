@@ -30,6 +30,8 @@ We have some tutorial of [How to use](How%20To%20Use/Standard)
 
 You can test out Camera Animation before you buy by using the sample avatar from the [Camera Animation Demo Avatar](https://vrchat.com/home/avatar/avtr_89e2b4e1-7a6a-4dbc-9c06-dfef99ec0472)
 
+How to get demo avatar?: _(open the avatar link and click "Switch to Avatar" or select favourite then check your favourite avatar list in VRChat)_
+
 ___
 
 ### How do I setup/install it?
