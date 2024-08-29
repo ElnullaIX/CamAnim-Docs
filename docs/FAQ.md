@@ -55,8 +55,8 @@ But if you're still experiencing issues, please send a message on Discord CAHppe
 
 ___
 
-### I can see my VRC stream, but I can't see OBS / on monitor, what did I do wrong?
-It appears that you're using the old version, which is causing the problem. The new version has fixed this issue.
+### CAHppe camera doesn't appear, glitches, or turns on and off repeatedly in the VRC Camera. What did I do wrong?
+You need to set your VRC Camera behavior to 'look-at-me.' That should fix it.
 :::danger important
 
 **⚠️ Ensure set behaviour on VRC Camera “look at me” when using Camera Animation ⚠️**
@@ -66,6 +66,13 @@ Because the Camera Animation is connected to a VRC Camera, that need to look at 
 ![gif](@site/static/img/LookAtMeBehaviour.webp)
 
 :::
+
+___
+
+### When I use force in the VRC Camera, I can see silhouette that interfeeres in the focus layer of the camera.
+That is the problem with VRC Camera, if you want making video look beautiful with focus, I would recommended you to using VRCLens or VirtualLens2 to linked with CAHppe.
+
+Please check the VRClens or VirtualLens2 linked in [installation](Installations/With%20VRCLens) and [How to use](How%20To%20Use/VRCLens)
 
 ___
 
