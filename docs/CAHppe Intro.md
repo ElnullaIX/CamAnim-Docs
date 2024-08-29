@@ -1,5 +1,5 @@
 ---
-title: CAHppe Intro
+title: CAHppe Introduction
 sidebar_position: 1
 ---
 
@@ -9,14 +9,29 @@ import Tabs from '@theme/Tabs';
 
 import TabItem from '@theme/TabItem';
 
-# CAHppe Intro
+# CAHppe Introduction
 :::warning
 
 **To be warning, some pages are still WIP / under construction.**
 
 :::
+
+### ◆ Creator Introduction:
+Who is the creator of Camera Animation Hppe?
+
+My name is hppedeaf, I'm Deaf and from French. I’m the creator of Camera Animation Hppe. The inspiration for it came from the original Camera Animation mod for VRChat, which was removed a year ago. I decided to bring it back to life! ♡
+
+I’ve had so much help with writing in English and creating tutorial videos from TachDeaf. Here's her message:
+
+Hi, I’m TachDeaf! I'm deaf and from Britain. I help hppedeaf with English translation, and I write on the CAHppe website with some tutorials and explanations about what it does. _Note: I didn’t create CAHppe, hppedeaf did that herself._ ♡
+
+<!-- VIDEO SHOW WHO YOU ARE HERE -->
+
+<ReactPlayer playing controls url=''/>
+
 ___
 <ReactPlayer playing controls url='https://www.youtube.com/watch?v=NeQeA9TXIA4'/>
+<!-- ^^ VIDEO NEED UPDATE WITH NEW ^^ -->
 
 ### ◆ Description:
 
@@ -31,7 +46,7 @@ ___
 <ins>**!!! This is only for PC version, and can't Quest version because of this Camera Animation require need to use constraints to make it work. !!!**</ins>
 <p></p>
 
-<ins>**!!! Desktop Mode isn't support yet (will add in the future) !!!**</ins>
+<ins>**!!! Desktop Mode isn't support yet (Might will add in the future) !!!**</ins>
 <p></p>
 
 <ins>**!!! For anyone who doesn't understand the difference between 'full system' and 'full system + support.' !!!**</ins>
@@ -67,16 +82,16 @@ ___
 
 ### ◆ Features:
 
-- Waypoint 32
+- Waypoint 34
 - Orbit Camera
-- Centre Player Choice camera movement
+- Centre Player
 - Look at player
 - Look at Object
 - Loop
 - Zoom
 - Reset
 - Setting
-- And more!
+- And many more!
 
 <!-- //PICTURES HERE -->
 
@@ -98,10 +113,4 @@ ___
 - Parameter (32)
 - 2 Shader "StreamCam" and "HideInCamera" created by Rollthenerd and Nestorboy
 - README CAHppe
-
-___
-
-### ◆ How to add on Unity:
-Click the next step!
-___
 <!-- NEED UPDATING!!!! -->

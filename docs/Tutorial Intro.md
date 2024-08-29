@@ -1,9 +1,9 @@
 ---
-title: Tutorial Intro
-sidebar_position: 2
+title: Tutorial Introduction
+sidebar_position: 3
 ---
 
-# Tutorial Intro
+# Tutorial Introduction
 :::warning
 
 **To be warning, some pages are still WIP / under construction.**
