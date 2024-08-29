@@ -25,7 +25,7 @@ Hi, I’m TachDeaf! I'm deaf and from Britain. I help hppedeaf with English tran
 
 ___
 
-### How do I use CA in VRChat?
+### How do I use CAHppe in VRChat?
 We have some tutorial of [How to use](How%20To%20Use/Standard)
 
 You can test out Camera Animation before you buy by using the sample avatar from the [Camera Animation Demo Avatar](https://vrchat.com/home/avatar/avtr_89e2b4e1-7a6a-4dbc-9c06-dfef99ec0472)
@@ -46,7 +46,7 @@ Did you check in Gumroad / Booth website and README file with step to step of ho
 
 ___
 
-### How do I linked VRClens with CA?
+### How do I linked VRClens with CAHppe?
 There's a tutorial video on how to link VRCLens with CA as a plugin. Please check the [Installation](Installations/With%20VRCLens)
 
 If you've followed the video tutorial but it still doesn't work, make sure to check the animation with DynVR. If all text are yellow except for one that is white, it should be working.
@@ -81,16 +81,12 @@ the latest version is v2.0.0
 
 Stay tuned for the update! 
 
-Please check in ⁠store
-
 ___
 
 ### Which is the latest of version for OSC App?
 the latest version is v1.0.1
 
-Stay tuned for the update! 
-
-Please check in ⁠store
+Stay tuned for the update!
 
 ___
 
