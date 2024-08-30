@@ -84,6 +84,11 @@ Set the camera to continuously look at the Local player during movement.
 Set the camera to continuously look at the spot during movement.
 
 ![gif](@site/static/img/LookAtDrop.webp)
+:::tip
+
+You can remove Look at Drop by pressing and holding the Look at Drop button. Then, move it close to another hand to remove it. ![gif](@site/static/img/RemoveWaypoint.webp)
+
+:::
 
 ### Look at Remote Player
 Set the camera to continuously look at the Romate player during movement.
