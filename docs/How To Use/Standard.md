@@ -86,7 +86,7 @@ Set the camera to continuously look at the spot during movement.
 ![gif](@site/static/img/LookAtDrop.webp)
 :::tip
 
-You can remove Look at Drop by pressing and holding the Look at Drop button. Then, move it close to another hand to remove it. ![gif](@site/static/img/RemoveWaypoint.webp)
+You can remove Look at Drop by pressing and holding the Look at Drop button. Then, move it close to another hand to remove it. ![gif](@site/static/img/RemoveDrop.webp)
 
 :::
 
@@ -194,7 +194,7 @@ It's not our responsibility if any world's coordinates (0, 0, 0) are off-screen 
 ### Attach Player
 Attach to the Player
 
-![gif](@site/static/img/AttachPlayer.webp)
+![gif](@site/static/img/Attach.webp)
 
 ___
 
