@@ -11,90 +11,123 @@ import ReactPlayer from 'react-player';
 
 :::
 
-Does this OSC need installation? Normal Standard already have ready OSC inside!
+Does this OSC need installation in unity? _Normal Standard already have ready OSC inside!_
 
-OSC works with Standard, VRCLens, or VirtualLens2. OSC saves your positioning (LOCAL ONLY) and possible to share the files with your friends.
+OSC can works with Standard, VRCLens, or VirtualLens2. OSC is for saves your positioning (LOCAL ONLY) and possible to share the files with your friends.
 
-you can save zone 2000m x 2000m x 2000m (2km x 2km x 2km).
-# Keys
+you can save zone area in any world VRChat is 2000m x 2000m x 2000m (2km x 2km x 2km).
+
+___
+
+### Keys
 
 :::warning important 
 
-require have License key by Gumroad for use this app to open
+require have License key by Gumroad for this app to unlocked
 
 :::
 ![Kays](@site/static/img/OSC_Keys.png)
 
-# Username
-for who make save your position. after share to your friends.
+___
+
+### Username
+for who create some position. _you can share or trade with your friends. You able to see who made waypoints_
 
 ![Username](@site/static/img/OSC_username.png)
 
-# Setting
+___
 
-**Ip address and port** can be changed in the settings. more info [OSC VRChat](https://docs.vrchat.com/docs/osc-overview) 
+### Setting
 
-**Theme** for light and dark this app, System will auto with your Window theme.
+**Ip address and port** Those are for sending and listening port from VRChat, setting can be changed anytimes. _more info [OSC VRChat](https://docs.vrchat.com/docs/osc-overview)_
 
-**Username** for who make save your position. after share to your friends.
+**Theme** for light and dark theme on this app, or the System will auto match with your Window theme.
+
+**Username** for who create some position. _you can share or trade with your friends. You able to see who made waypoints_
 
 ![Setting](@site/static/img/OSC_Setting.png)
 
-# General
+___
 
-there save your position. like old mod (camera animation) exist in VRChat but have save limited.
+### General
 
-OSC can save unlimited and share with your friends very work well.
+You can save your postion by press the + to add new. Same as the old mod (camera animation) exist in VRChat but this mod have limited storage save.
 
-and save your time work
+OSC can have unlimited storage save and share with your friends work very well.
 
+and save your time.
 
 ![general](@site/static/img/OSC_general.png)
 
-### Auto Active OSC
-when this app OSC open will auto active in VRChat.
+___
 
-and if app OSC close will not active in VRChat.
+### Auto Active OSC
+when this OSC app is open, it will automaticly toggle active on in VRChat Action Menu.
+
+and if the OSC app is close, it'll will automaticly toggle off in VRChat Action Menu.
 
 ![Active OSC](@site/static/img/Auto_Active_OSC.webp)
 
-# How to OSC Save and Send load
+___
+
+### How to Save and Send load
 <ReactPlayer controls url='https://youtu.be/pmK_SbFjOe8'/>
 
-# If accident your avatar reset
+___
+
+### Reset Avatar by accident
+If you press the Reset Avatar or fix your FBT by accident, the files will be still saved your postion by press + to add. _(Save your time so much)_
 <ReactPlayer controls url='https://youtu.be/M3hC26WIvQc'/>
 
-# How to save and different world
+:::tip
 
-<ReactPlayer controls url='https://youtu.be/9_3FQPHxQD4'/>
-:::tip PS 
-
-you can position default world at coordinates (0, 0, 0)
-([how to reset place](https://hppedeaf.github.io/Camera-Animation-Hppe-Docs/docs/How%20To%20Use/Standard#reset-place)) but not good idea but best only same stay world.
+Remember, if you press Reset Avatar or fix your FBT will be toggle off the CAhppe itself, toggle it on and click send load in OSC App.
 
 :::
 
+___
 
+### How to save and different world
+
+Press the + button in OSC is saved your waypoints position, can using same position in different world.
+
+<ReactPlayer controls url='https://youtu.be/9_3FQPHxQD4'/>
+:::note
+
+the default coordinates (0, 0, 0) is so many different place, off-screen or in an unusual place. But you can using Reset Place to connected with you
+([how to reset place](https://hppedeaf.github.io/Camera-Animation-Hppe-Docs/docs/How%20To%20Use/Standard#reset-place)) it was recommended to use Reset Place first then you can set waypoints anywhere but you can use Attach to the player to move to any place you want in another world.
+
+:::
+
+___
 
 ### How to edit position
 <ReactPlayer controls url='https://youtu.be/OqZ8RQ08-Lo'/>
 
-# Edit file Json
+___
 
-click right to menudown on grid
+### Edit the file of .Json
+
+click right to menudown on storage list
 
 ![OSC_menudown](@site/static/img/OSC_menudown.png)
 
-where i can found path of my file save ?
+:::note
 
-you can open this button `Show in Explorer`
+"where can I find the path of my saved file?" _you can click right on on some your saved file in OSC to menudown and see `Show in Explorer` or `C:\Users\USERNAME\AppData\LocalLow\VRChat\VRChat\OSC\CameraAnimationHppe`_
 
-or
+:::
 
-`C:\Users\USERNAME\AppData\LocalLow\VRChat\VRChat\OSC\CameraAnimationHppe`
+___
 
-# How to share
+### How to share
 
-you can just drop the file on your friends
+you can transfer the .Json file to your friends for share or trade
 
-in folder Json
+:::note
+
+"where can I find the .Json?" _It's in the folder Json_
+
+:::
+
+___
