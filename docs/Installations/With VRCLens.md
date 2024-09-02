@@ -3,11 +3,16 @@ title: With VRCLens
 sidebar_position: 2
 ---
 
+import ReactPlayer from 'react-player';
+
+
+## Please select which version you using. [CAHppe v1.3.2](With%20VRCLens#works-with-v132-of-cahppe) or [CAHppe v2.0.0](With%20VRCLens#works-with-cahppe-v20)
+
 require to get [VRCLens](https://hirabiki.gumroad.com/l/rpnel) from Gumroad
 
 :::note
 
-#### Works with V1.3.2 of CAHppe. The new V2 of CAHppe has not yet been developed to connect with VRCLens.
+### Works with V1.3.2 of CAHppe. Soon will be replace to v2.0.0
 
 :::
 
@@ -38,8 +43,8 @@ Grab and drag CAHppe linked VRCLens Prefab of RIGHT HAND or LEFT HAND (whatever 
 
 ___
 <p></p>
-### 4. "Hand Waypoints"
-In CA prefab, select “Hand Waypoints” if you can see the blue ball and move it to near your Index Finger
+### 4. "CA Target"
+In CA prefab, select “CA Target” if you can see the blue ball and move it to near your Index Finger
 
 
 ___
@@ -66,6 +71,14 @@ ___
 ### 5. Publish!
 And publish! (VRCFury will setup all FX and Parameter for you itself)
 
-<!-- // FULL TUTORIAL VIDEOS HERE -->
+___
+
+:::note
+
+## Works with CAHppe V2.0
+
+<ReactPlayer controls url='https://youtu.be/ubVIdEqBTsk?si=B1mIhsQIcMOlkJo0'/>
+
+:::
 
 <!-- When will ready for Beta v2? -->
