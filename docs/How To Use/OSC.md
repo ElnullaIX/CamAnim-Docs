@@ -78,3 +78,23 @@ you can position default world at coordinates (0, 0, 0)
 
 ### How to edit position
 <ReactPlayer controls url='https://youtu.be/OqZ8RQ08-Lo'/>
+
+# Edit file Json
+
+click right to menudown on grid
+
+![OSC_menudown](@site/static/img/OSC_menudown.png)
+
+where i can found path of my file save ?
+
+you can open this button `Show in Explorer`
+
+or
+
+`C:\Users\USERNAME\AppData\LocalLow\VRChat\VRChat\OSC\CameraAnimationHppe`
+
+# How to share
+
+you can just drop the file on your friends
+
+in folder Json
