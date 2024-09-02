@@ -11,10 +11,11 @@ import ReactPlayer from 'react-player';
 
 :::
 
-<!-- Does this OSC need installation??? Normal Standard already have ready OSC inside..!!! -->
+Does this OSC need installation? Normal Standard already have ready OSC inside!
 
 OSC works with Standard, VRCLens, or VirtualLens2. OSC saves your positioning (LOCAL ONLY) and possible to share the files with your friends.
 
+you can save zone 2000m x 2000m x 2000m (2km x 2km x 2km).
 # Keys
 
 :::warning important 
@@ -50,8 +51,30 @@ and save your time work
 
 ![general](@site/static/img/OSC_general.png)
 
+### Auto Active OSC
+when this app OSC open will auto active in VRChat.
+
+and if app OSC close will not active in VRChat.
+
 ![Active OSC](@site/static/img/Auto_Active_OSC.webp)
 
+# How to OSC Save and Send load
 <ReactPlayer controls url='https://youtu.be/pmK_SbFjOe8'/>
+
+# If accident your avatar reset
 <ReactPlayer controls url='https://youtu.be/M3hC26WIvQc'/>
 
+# How to save and different world
+
+<ReactPlayer controls url='https://youtu.be/9_3FQPHxQD4'/>
+:::tip PS 
+
+you can position default world at coordinates (0, 0, 0)
+([how to reset place](https://hppedeaf.github.io/Camera-Animation-Hppe-Docs/docs/How%20To%20Use/Standard#reset-place)) but not good idea but best only same stay world.
+
+:::
+
+
+
+### How to edit position
+<ReactPlayer controls url='https://youtu.be/OqZ8RQ08-Lo'/>
