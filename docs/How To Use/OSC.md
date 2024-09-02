@@ -7,7 +7,7 @@ import ReactPlayer from 'react-player';
 
 :::warning
 
-### This page is under construction, Soon to strt working on here!
+### This page is under construction.
 
 :::
 
