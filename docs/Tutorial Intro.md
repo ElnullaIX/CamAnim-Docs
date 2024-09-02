@@ -1,9 +1,9 @@
 ---
-title: Tutorial Intro
-sidebar_position: 2
+title: Tutorial Introduction
+sidebar_position: 3
 ---
 
-# Tutorial Intro
+# Tutorial Introduction
 :::warning
 
 **To be warning, some pages are still WIP / under construction.**
@@ -19,7 +19,6 @@ When you're ready, please choose which version you'd like to install:
 - **Standard:** Normal Camera Animation Hppe camera.
 - **With VRCLens:** Supports Camera Animation Hppe as a plugin.
 - **With VirtualLens2:** Supports Camera Animation Hppe as a plugin.
-- **With OSC:** OSC works with Standard, VRCLens, or VirtualLens2. OSC saves your positioning (LOCAL ONLY) and possible to share the files with your friends.
 
 :::tip
 

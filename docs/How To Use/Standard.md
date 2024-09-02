@@ -2,14 +2,6 @@
 title: Standard
 sidebar_position: 1
 ---
-
-
-:::warning
-
-### This page is under construction.
-
-:::
-
 :::danger important
 
 **⚠️ Ensure set behaviour on VRC Camera “look at me” when using Camera Animation ⚠️**
@@ -51,13 +43,13 @@ When you're done with the camera, press stop. The camera will stop and return to
 
 ![gif](@site/static/img/Stop.webp)
 
-### Setting
-Open the [settings](Standard#-setting) to camera options such as speed, zoom, and Look-at, etc.
+### [Setting](Standard#-setting)
+Open the settings to camera options such as speed, zoom, and Look-at, etc.
 
 ![gif](@site/static/img/Settings.webp)
 
-### Mode System
-Open the Camera Modes to choose a [system](Standard#mode-system), such as Orbit or Center Player.
+### [Mode System](Standard#-mode-system)
+Open the Camera Modes to choose a system, such as Orbit or Center Player.
 
 ![gif](@site/static/img/ModeSystem.webp)
 
@@ -65,8 +57,8 @@ ___
 
 ## ◆ Setting
 
-### Camera Environment
-Options for the camera. Changing the [background](Standard#background), hiding [local](Standard#local-player) or [remote users](Standard#remote-player), and switching between [portrait](Standard#mode-portrait) and landscape modes.
+### [Camera Environment](Standard#-camera-environment)
+Options for the camera. Changing the background, hiding local or remote users, and switching between portrait and landscape modes.
 
 ### Speed
 Change the camera path movement speed; you can set it to be slow or fast.
@@ -92,6 +84,11 @@ Set the camera to continuously look at the Local player during movement.
 Set the camera to continuously look at the spot during movement.
 
 ![gif](@site/static/img/LookAtDrop.webp)
+:::tip
+
+You can remove Look at Drop by pressing and holding the Look at Drop button. Then, move it close to another hand to remove it. ![gif](@site/static/img/RemoveDrop.webp)
+
+:::
 
 ### Look at Remote Player
 Set the camera to continuously look at the Romate player during movement.
@@ -151,17 +148,17 @@ ___
 
 ## ◆ Mode System
 
-### Orbit
+### [Orbit](Standard#-orbit)
 Circle Around the Player
 
-### Player
+### [Player](Standard#-centre-player)
 Waypoints Travel with the Player
 
-### OSC
+### [OSC](OSC)
 This will only appear if you have the app open. OSC will toggled on by itself.
-:::warning
+:::warning IMPORTANT
 
-### OSC needs an app to function, and it is currently under construction.
+### OSC needs an app to function.
 
 :::
 
@@ -175,17 +172,29 @@ Enable Orbit Around the Player
 ![gif](@site/static/img/OrbitEnabled.webp)
 
 ### Reset Place
-Center on the Player
- :::note
+Centre on the Player
+![gif](@site/static/img/resetplace.webp)
+:::tip
 
- This part is under construction.
+Click the 'Reset Place' button once, and it will reappear at the centre of the user player.
 
- :::
+:::
+:::tip TIP 2
+
+Click and hold the 'Reset Place' button. When the red circle disappears, release the button. It will move to the centre of the world at coordinates (0, 0, 0).
+![gif](@site/static/img/ResetPlace2.webp)
+
+:::
+:::note
+
+It's not our responsibility if any world's coordinates (0, 0, 0) are off-screen or in an unusual place. The responsibility is the creator who made the world.
+
+:::
 
 ### Attach Player
 Attach to the Player
 
-![gif](@site/static/img/AttachPlayer.webp)
+![gif](@site/static/img/Attach.webp)
 
 ___
 
@@ -217,7 +226,7 @@ Move Anywhere with Free Orbit
 ![gif](@site/static/img/OrbitFree.webp)
 :::tip
 
-Change the Height to 0 (Recommended)
+Change the Height to 0 when using Orbit Free. (Recommended)
 
 :::
 
@@ -236,4 +245,3 @@ When you see a red circle on the floor, place the waypoints randomly wherever yo
 
 ![gif](@site/static/img/CentrePlayer.webp)
 
-<!-- All done, I think but one missed, need fix te Reset place -->
