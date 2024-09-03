@@ -17,6 +17,8 @@ OSC can works with Standard, VRCLens, or VirtualLens2. OSC is for saves your pos
 
 you can save zone area in any world VRChat is 2000m x 2000m x 2000m (2km x 2km x 2km).
 
+Its dont work? _did you enabled the OSC in action menu?_
+![gif](@site/static/img/EnabledOSCon.webp)
 ___
 
 ### Keys
