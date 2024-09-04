@@ -5,31 +5,112 @@ sidebar_position: 4
 
 import ReactPlayer from 'react-player';
 
-:::warning
+:::danger For your Infomation
 
-### This page is under construction.
+#### This OSC app may crash sometimes when you're using it. Don't worry, hppedeaf is working on finding a solution to fix it.
 
 :::
 
-Does this OSC need installation in unity? _Normal Standard already have ready OSC inside!_
+:::warning
 
-OSC can works with Standard, VRCLens, or VirtualLens2. OSC is for saves your positioning (LOCAL ONLY) and possible to share the files with your friends.
+#### This page is under construction.
 
-you can save zone area in any world VRChat is 2000m x 2000m x 2000m (2km x 2km x 2km).
+:::
 
-Its dont work? _did you enabled the OSC in action menu?_
+:::note
+
+This OSC have three part of **FAG about the OSC**, **Explanation What it for.** and **How to use the OSC app**. Please check on the list on the right.
+
+:::
+
+## FAQ about the OSC
+
+**What is OSC for?**
+
+_OSC is for saves your positioning (LOCAL ONLY) and possible to share the files with your friends._
+
+---
+
+**Where can I get the OSC app?**
+
+_It's in Gumroad 'Camera Animation Hppe' store. You can check your history purchased and download it_
+
+---
+
+**Does this OSC need install in Unity?**
+
+_No, It's install into your PC as like it's an app. It'll linked with VRChat_
+
+---
+
+**OSC need Gumroad key API but I bought it on Booth, what will I do?**
+
+_Don't worry, you can contact with hppedeaf on the discord with proof you did purchased in booth, so Hppedeaf will gave you the key._
+
+---
+
+**How to get my Avatar linked with OSC?**
+
+_Normal Standard already have OSC ready inside. Check the Action Menu in System Mode, you'll see the "OSC" already there._
+
+---
+
+**Which version can work with OSC?**
+
+_OSC can works with Standard, VRCLens, or VirtualLens2._
+
+---
+
+**Why is it Local only? why can't my friends see it?**
+
+_Sorry, it's not my fault. It's VRChat itself that only work for 1/127. if you want friends can see it, they will see different. so it's better to be Local Only_
+
+---
+
+**What is 1/127??**
+
+_Check VRChat website about [what is 1/127.](https://creators.vrchat.com/avatars/animator-parameters/#parameter-types)_
+
+---
+
+**How far as you can saving waypoints position?**
+
+_you can save zone area in any world VRChat is 2000m x 2000m x 2000m (2km x 2km x 2km)._
+
+---
+
+**I try OSC but it's don't work?**
+
+_did you enabled the OSC in action menu? See the gif below. When you see the button of OSC, it turn on active by itself meaning it is connection the app ready._
 
 ![gif](@site/static/img/EnabledOSCon.webp)
-___
+
+---
+
+**I try using the OSC but it's crash..**
+
+_I did added the warning "For Your Infomation" in the top. Hopeful in the future as hppedeaf will found a solution to fix it_
+
+---
+
+**Any question you want to ask? if you do, please join CAHppe Discord server or Twitter to mention @hppedeaf about it!**
+
+If you run into something new issue, please give a feedback so hppedeaf will try work on it.
+
+---
+
+## Explanation what it for.
 
 ### Keys
-
 :::warning important 
 
 require have License key by Gumroad for this app to unlocked
 
 :::
 ![Kays](@site/static/img/OSC_Keys.png)
+
+Where to find the key? _It's in Gumroad where you bought Camera Animation Hppe. (If you bought in Booth, please check in FAQ)_
+![Kays](@site/static/img/WhereToFindTheKey.png)
 
 ___
 
@@ -73,9 +154,12 @@ and if the OSC app is close, it'll will automaticly toggle off in VRChat Action 
 
 ___
 
-### How to Save and Send load
-<ReactPlayer controls url='https://youtu.be/pmK_SbFjOe8'/>
+## How to use the OSC app
 
+### How to Save and Send load
+
+When you want place anywhere and click + to saved it in OSC then moved into different world, you can click button you created and click "Send load" it'll appear in exactly same position where you place before.
+<ReactPlayer controls url='https://youtu.be/pmK_SbFjOe8'/>
 ___
 
 ### Reset Avatar by accident
@@ -84,7 +168,7 @@ If you press the Reset Avatar or fix your FBT by accident, the files will be sti
 
 :::tip
 
-Remember, if you press Reset Avatar or fix your FBT will be toggle off the CAhppe itself, toggle it on and click send load in OSC App.
+Remember, if you press Reset Avatar or fix your FBT will be toggle off the CAhppe itself, toggle it on again and click send load in OSC App.
 
 :::
 
@@ -105,8 +189,16 @@ the default coordinates (0, 0, 0) is so many different place, off-screen or in a
 ___
 
 ### How to edit position
+
+That you can editing the waypoints postion on OSC in Edit Waypoints tab anywhere you want to place in world then click General tab then click save and you done to go!
+
 <ReactPlayer controls url='https://youtu.be/OqZ8RQ08-Lo'/>
 
+:::note
+
+Useful for desktop mode user, you can using CAHppe with OSC during on desktop mode.
+
+:::
 ___
 
 ### Edit the file of .Json
