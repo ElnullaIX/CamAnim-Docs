@@ -5,80 +5,61 @@ sidebar_position: 2
 
 import ReactPlayer from 'react-player';
 
-
-## Please select which version you using. [CAHppe v1.3.2](With%20VRCLens#works-with-v132-of-cahppe) or [CAHppe v2.0.0](With%20VRCLens#works-with-cahppe-v20)
-
 require to get [VRCLens](https://hirabiki.gumroad.com/l/rpnel) from Gumroad
 
-:::note
+:::info IMPORTANT
 
-### Works with V1.3.2 of CAHppe. Soon will be replace to v2.0.0
+**You need installation on Standard first and done Set up VRCLens first. Then you can start follow the tutorial here of how linked VRCLens with CAHppe :)**
 
 :::
 
 ___
-<p></p>
-### 1. Avatar ready
-Get your avatar ready (Caution, To ensure your avatar need free of parameter 34 bits)
 
+### 1. Avatar ready
+Get your avatar ready with VRCLens in it (Caution, To ensure your avatar need free of parameter 34 bits)
+
+![banner](@site/static/img/AvatarReady.png)
 
 ___
-<p></p>
-### 2. Find folder
-Go to find folder of Plugin from Camera Animation folder
+
+### 2. DynVR + Parents
+Go to find the "DynVR" in your right or left hand and click add component, create "VRC Parent Constraint"
+
+![gif](@site/static/img/VRCLensTutorial1.webp)
+
+___
+
+### 3. Connected VRCLens to CA
+Open "Camera Animation Prefab" to find "Camera" on list and drag it to drop in VRC Parent Constraint sources, click Activate button, if you see number in bottom, go to Unchecked on both "Is Active" and "Lock", to change all number to 0 on bottom then checked "Lock" and "Is Active" again.
+
+![gif](@site/static/img/VRCLensTutorial2.webp)
+
+___
+
+### 4. the Animator
+Add CA V2 in your avatar animator (When you done with Animation, please remove it off the animator later)
+
+![gif](@site/static/img/VRCLensTutorial3.webp)
+
+___
+
+### 5. Animation then Publish!
+Go to Animation tab and search for VRCLens Off and VRCLens On. (Press V on list to find them fast) Click VRCLens Off then press red circle to recording, set DynVR VRC Parents Constraint Weight to 0. stop the Red circle, going to next VRCLens On, then press red circle to recording, set DynVR VRC Parents Constraint Weight to 1. stop the Red circle. and then remove CA v2 on your avatar animator(Sorry, I forget in video.) and **PUBLISH!**
+
+![gif](@site/static/img/VRCLensTutorial4.webp)
+
+:::warning IMPORTANT
+
+VRCLens Off = Weight 0
+
+VRCLens On = Weight 1
+
+:::
 
 :::tip
 
-"I can't find where folder?"
-It's in Assets / Hppedeaf / Camera Animation / Plugin
+If you can't find where the Animation Tab is. Click on Window>Animation>Animation in top bar. you'll get it. :)
+
+![banner](@site/static/img/AnimationTab.png)
 
 :::
-
-
-___
-<p></p>
-### 3. CAHppe Linked VRCLens Prefab
-Grab and drag CAHppe linked VRCLens Prefab of RIGHT HAND or LEFT HAND (whatever your prefer left or right hand) to drop on your top of avatar (Not in Armature bones)
-
-
-___
-<p></p>
-### 4. "CA Target"
-In CA prefab, select “CA Target” if you can see the blue ball and move it to near your Index Finger
-
-
-___
-<p></p>
-### 5. DynVR + Parents
-Go to check on your right or left hand to select "DynVR" and click add component, create "Parent Constraint" then click the + from Sources
-
-
-___
-<p></p>
-### 6. Connected VRCLens to CA
-Look in CA prefab, open "World Constraint 1" to find "Camera" drag it to drop on DynVR in Parent Constraint sources, click lock in Constraint Setting, Weight default 0 then click the check "is active". (Don't click Activate button)
-
-:::danger IMPORTANT
-
-Seriously. Don't click "Activate button" That'll break the linked!<p></p>
-![banner](@site/static/img/DontClickIt.png)
-
-:::
-
-
-___
-<p></p>
-### 5. Publish!
-And publish! (VRCFury will setup all FX and Parameter for you itself)
-
-___
-
-:::note
-
-## Works with CAHppe V2.0
-
-<ReactPlayer controls url='https://youtu.be/ubVIdEqBTsk?si=B1mIhsQIcMOlkJo0'/>
-
-:::
-
-<!-- When will ready for Beta v2? -->
