@@ -19,7 +19,7 @@ import ReactPlayer from 'react-player';
 
 :::note
 
-This OSC have three part of **FAG about the OSC**, **Explanation What it for.** and **How to use the OSC app**. Please check on the list on the right.
+This OSC have three part of **FAQ about the OSC**, **Explanation What it for.** and **How to use the OSC app**. Please check on the list on the right.
 
 :::
 
