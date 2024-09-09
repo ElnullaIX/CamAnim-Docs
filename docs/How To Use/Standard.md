@@ -91,7 +91,7 @@ You can remove Look at Drop by pressing and holding the Look at Drop button. The
 :::
 
 ### Look at Remote Player
-Set the camera to continuously look at the Romate player during movement.
+Set the camera to continuously look at the Remote player during movement.
 
 ![gif](@site/static/img/LookAtRemotePlayer.webp)
 
