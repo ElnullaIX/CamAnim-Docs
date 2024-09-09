@@ -15,7 +15,7 @@ You can add some customs for your waypoints colours or the path line colours, 3D
 
 ---
 
-## COLOURS
+## COLOURS!!
 
 ![gif](@site/static/img/WaypointsandLineColours.webp)
 
@@ -31,5 +31,8 @@ Open Camera Animation Prefab, Select "bezier curves 1", check in Trail Renderer 
 
 ![gif](@site/static/img/LineColours.webp)
 
+---
+
 ## 3D MODEL
 
+### 1
