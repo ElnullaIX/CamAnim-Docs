@@ -9,7 +9,7 @@ sidebar_position: 1
 
 :::
 
-- Get your avatar ready (Caution, To ensure your avatar need free of parameter 34 bits)
+- Get your avatar ready with VRCLens in it (Caution, To ensure your avatar need free of parameter 34 bits Or 0 bits if you want to use loacl)
 
 - Go to find folder of Manual from Camera Animation
 
