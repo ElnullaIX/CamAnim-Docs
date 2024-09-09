@@ -3,9 +3,32 @@ title: Standard
 sidebar_position: 1
 ---
 
+import ReactPlayer from 'react-player';
+
+import Tabs from '@theme/Tabs';
+
+import TabItem from '@theme/TabItem';
+
+:::warning
+
+### This page is under construction.
+
+:::
+:::info
+
+**CAHppe v2.0.0 is working for manual installation now. Please check the video. We will add the instructions soon**
+
+:::
+
+<ReactPlayer playing controls url='https://youtu.be/z3LoaGhcHwc?si=3xTvjJwBK6S4AG26'/>
+
+<ReactPlayer playing controls url=''/>
+
+---
+
 :::note
 
-#### Works with V1.3.2 of CAHppe. The new V2 of CAHppe didn't test with Manual yet. Will add for v2 in the future. thank you for be patience
+#### Works with V1.3.2 of CAHppe. The new V2 of CAHppe will be add writing here soon. Thank you for be patience
 
 :::
 
