@@ -43,19 +43,22 @@ Please don’t forget tag #CAHppe on any Social Media such as Tik-tok, Twitter, 
 
 ___
 
-<ins>**!!! This is only for PC version, and can't Quest version because of this Camera Animation require need to use constraints to make it work. !!!**</ins>
+<ins>**!!! This is only for PC version, and can't Quest version because of this don't support the Camera Component!!!**</ins>
 <p></p>
 
-<ins>**!!! Desktop Mode isn't support yet (Might will add in the future) !!!**</ins>
+<ins>**!!! Desktop Mode can be support!!!**</ins>
 <p></p>
 
-<ins>**!!! For anyone who doesn't understand the difference between 'full system' and 'full system + support.' !!!**</ins>
+<ins>**!!! OSC is supported!!!**</ins>
+<p></p>
+
+<ins>**!!! For anyone who doesn't understand the difference between 'full system' and 'full system + support.'!!!**</ins>
 :::note
 
 "They are the same version; there is no difference. The second one with support just adds extra cost as a contribution."
 
 :::
-<ins>**!!! this package don't have VRCLens !!!**</ins>
+<ins>**!!! this package don't have VRCLens!!!**</ins>
 :::note
 
 "You can use Camera Animation without VRCLens but if you want CA linked with VRCLens, you need get it from their Gumroad"
@@ -82,20 +85,22 @@ ___
 
 ### ◆ Features:
 
-- Waypoint 34
+- Waypoint 32
 - Orbit Camera
-- Centre Player
+- Centre Player Choice camera movement
 - Look at player
 - Look at Object
+- Look at Remote User
 - Loop
 - Zoom
 - Reset
-- Setting
-- And many more!
+- Camera Settings
+- OSC
+- And more!
 
-<!-- //PICTURES HERE -->
+![banner](@site/static/img/ActionMenu.png)
 
-:::note
+:::info
 
 If using linked with VRCLens, Zoom is removed, using VRCLens's zoom instead.
 
@@ -107,10 +112,9 @@ ___
 
 - 3D model (FBX)
 - Texture files
-- Animations (102)
 - FX (1)
 - Prefab (3)
-- Parameter (32)
+- Parameter (34) (or 0 if you pick Local)
 - 2 Shader "StreamCam" and "HideInCamera" created by Rollthenerd and Nestorboy
 - README CAHppe
 <!-- NEED UPDATING!!!! -->

@@ -3,20 +3,23 @@ title: Standard
 sidebar_position: 1
 ---
 
-:::note
+:::info Important
 
 #### This only works for CAHppe V2. Please make sure to keep your CAHppe version up to date.
 
 :::
 ### 1. Avatar ready
-Get your avatar ready (Caution, To ensure your avatar need free of parameter 34 bits)
+Get your avatar ready with VRCLens in it (Caution, To ensure your avatar need free of parameter 34 bits)
 :::note
 
-Or 0 bits if you prefer everything to be local only, as other remote players won't be able to see your CA assets.
+Or 0 bit if you prefer everything to be local only, as other remote players won't be able to see your CA assets.
 
 `Assets/Hppedeaf/Camera Animation v2/Control/Local`
 
+![banner](@site/static/img/Local.png)
+
 :::
+
 ___
 
 ### 2. Find folder
@@ -53,7 +56,3 @@ ___
 And publish! (VRCFury will setup all FX and Parameter for you itself)
 
 ![gif](@site/static/img/4.gif)
-
-<!-- // FULL TUTORIAL VIDEOS HERE -->
-<!-- BWHERE IS FULL VIDEEEOOOOOO!!! -->
-

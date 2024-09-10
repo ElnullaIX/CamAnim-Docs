@@ -243,5 +243,5 @@ Enable Centre on Player
 
 When you see a red circle on the floor, place the waypoints randomly wherever you like. Then press 'Attach Player' and click 'Play!'
 
-![gif](@site/static/img/CentrePlayer.webp)
+![gif](@site/static/img/CentrePlayerPlay.webp)
 

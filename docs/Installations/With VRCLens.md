@@ -7,6 +7,11 @@ import ReactPlayer from 'react-player';
 
 require to get [VRCLens](https://hirabiki.gumroad.com/l/rpnel) from Gumroad
 
+:::info Important
+
+#### This only works for CAHppe V2. Please make sure to keep your CAHppe version up to date.
+
+:::
 :::info IMPORTANT
 
 **You need installation on Standard first and done Set up VRCLens first. Then you can start follow the tutorial here of how linked VRCLens with CAHppe :)**
@@ -17,13 +22,22 @@ ___
 
 ### 1. Avatar ready
 Get your avatar ready with VRCLens in it (Caution, To ensure your avatar need free of parameter 34 bits)
+:::note
+
+Or 0 bit if you prefer everything to be local only, as other remote players won't be able to see your CA assets.
+
+`Assets/Hppedeaf/Camera Animation v2/Control/Local`
+
+![banner](@site/static/img/Local.png)
+
+:::
 
 ![banner](@site/static/img/AvatarReady.png)
 
 ___
 
 ### 2. DynVR + Parents
-Go to find the "DynVR" in your right or left hand and click add component, create "VRC Parent Constraint"
+Go to find the "DynVR" in your right or left hand and click add component, select "VRC Parent Constraint" to add.
 
 ![gif](@site/static/img/VRCLensTutorial1.webp)
 
@@ -44,7 +58,7 @@ Add CA V2 in your avatar animator (When you done with Animation, please remove i
 ___
 
 ### 5. Animation then Publish!
-Go to Animation tab and search for VRCLens Off and VRCLens On. (Press V on list to find them fast) Click VRCLens Off then press red circle to recording, set DynVR VRC Parents Constraint Weight to 0. stop the Red circle, going to next VRCLens On, then press red circle to recording, set DynVR VRC Parents Constraint Weight to 1. stop the Red circle. and then remove CA v2 on your avatar animator(Sorry, I forget in video.) and **PUBLISH!**
+Go to Animation tab and search for VRCLens Off and VRCLens On. (Press V on list to find them fast) Click VRCLens Off then press red circle to recording, set DynVR VRC Parents Constraint Weight to 0. stop the recording, going to next VRCLens On, then press red circle to recording, set DynVR VRC Parents Constraint Weight to 1. stop the recording. and then remove CA v2 in your avatar animator(Sorry, I forget in video.) and then **PUBLISH!**
 
 ![gif](@site/static/img/VRCLensTutorial4.webp)
 

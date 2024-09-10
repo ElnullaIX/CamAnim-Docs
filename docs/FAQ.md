@@ -39,7 +39,7 @@ Did you check in Gumroad / Booth website and README file with step to step of ho
 (TLTD?? okay, here the short version)
 - Get prefab and drag,
 - drop on your avatar
-- select CA Target to move near your index finger tip
+- select Hand Waypoints to move near your index finger tip
 - upload. done. ❤️
 
 <p></p>If you still don't understand, Please check the [Installation](Installations/Standard). There will be some videos that shows you how.

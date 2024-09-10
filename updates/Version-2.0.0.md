@@ -1,7 +1,7 @@
 ---
 title: version 2.0.0 -Beta.1 (25/08/2024)
 slug: version-2.0.0
-date: 2024-08-27T04:30
+date: 2024-08-25T04:30
 ---
 ## Public for Beta.1
 ### Changed:
@@ -21,4 +21,3 @@ date: 2024-08-27T04:30
 - Portrait
 - New icons
 - and OSC supported!
-- feel comfortable
