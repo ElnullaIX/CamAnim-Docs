@@ -1,7 +1,7 @@
 ---
 title: version 2.0.1 (10/09/2024)
 slug: version-2.0.1
-date: 2024-09-10T01:59
+date: 2024-09-10T06:59
 ---
 
 - fix path line little messy when play
