@@ -9,6 +9,6 @@ date: 2024-09-10T06:59
 - Waypoints Shader fixed
 - when spawn new waypoint camera late rotation
 - fixed right scale default 1,1,1
-- change material shader unity for let you choose to colour for custom
+- change material shader unity for let you choose to colour for [custom](https://hppedeaf.github.io/Camera-Animation-Hppe-Docs/docs/Custom)
 - fixed prefab manual installation
 - Fix Orbit rotation
