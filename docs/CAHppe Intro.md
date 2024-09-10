@@ -82,20 +82,22 @@ ___
 
 ### ◆ Features:
 
-- Waypoint 34
+- Waypoint 32
 - Orbit Camera
-- Centre Player
+- Centre Player Choice camera movement
 - Look at player
 - Look at Object
+- Look at Remote User
 - Loop
 - Zoom
 - Reset
-- Setting
-- And many more!
+- Camera Settings
+- OSC
+- And more!
 
-<!-- //PICTURES HERE -->
+![banner](@site/static/img/ActionMenu.png)
 
-:::note
+:::info
 
 If using linked with VRCLens, Zoom is removed, using VRCLens's zoom instead.
 
@@ -107,10 +109,9 @@ ___
 
 - 3D model (FBX)
 - Texture files
-- Animations (102)
 - FX (1)
 - Prefab (3)
-- Parameter (32)
+- Parameter (34) (or 0 if you pick Local)
 - 2 Shader "StreamCam" and "HideInCamera" created by Rollthenerd and Nestorboy
 - README CAHppe
 <!-- NEED UPDATING!!!! -->
