@@ -40,14 +40,14 @@ Open the Camera Animation prefab, select 'Bezier Curves 1,' check the Trail Rend
 ### 1. Replace Camera model
 Open the Camera Animation prefab, go to 'Camera,' and activate the Camera. Check 'Smooth Look At' and activate the Mesh Renderer. Grab any 3D model of a camera, drag and drop it into 'Smooth Look At.' Move and scale your 3D model camera behind the POV Camera. Then, activate 'Camera Everyone' and check if your 3D model camera is correctly placed behind the POV Camera. Finally, in 'Smooth Look At,' remove the Mesh Renderer and Camera (Mesh Filter).
 
-<ReactPlayer playing controls url='https://youtu.be/KhbbGzaOIW8'/>
+<ReactPlayer controls url='https://youtu.be/KhbbGzaOIW8'/>
 
 ---
 
 ### 2. Move the Quad
 Check the Quad and move it behind the 3D camera model to your preferred position. Once the Quad is placed, move your 3D camera model inside the Quad. Then, turn off 'Camera' in Camera Everyone, deactivate Camera Everyone, turn off the Quad, and turn off the Camera. Done!
 
-<ReactPlayer playing controls url='https://youtu.be/CzlEEZwZ6D0'/>
+<ReactPlayer controls url='https://youtu.be/CzlEEZwZ6D0'/>
 
 ---
 <!--This Page is completed.-->
