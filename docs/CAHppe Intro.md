@@ -43,7 +43,7 @@ Please don’t forget tag #CAHppe on any Social Media such as Tik-tok, Twitter, 
 
 ___
 
-<ins>**!!! This is only for PC version, and can't Quest version because of this Camera Animation require need to use constraints to make it work. !!!**</ins>
+<ins>**!!! This is only for PC version, and can't Quest version because of this Camera Shader that Quest don't support it. !!!**</ins>
 <p></p>
 
 <ins>**!!! Desktop Mode can be support!!!**</ins>
