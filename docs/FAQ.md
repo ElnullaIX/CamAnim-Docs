@@ -77,7 +77,7 @@ Please check the VRClens or VirtualLens2 linked in [installation](Installations/
 ___
 
 ### Which is the latest of version for CAHppe?
-the latest version is v2.0.0
+the latest version is v2.0.1
 
 Stay tuned for the update! 
 
@@ -102,8 +102,7 @@ Unless, if you prefer not to use VRCFury, you can manually install CA by yoursel
 ___
 
 ### Why it won't work for Quest? :(
-AAAAAAAAAAA I'm sorry! Its not us, it's VRChat itself, they disabled Constraints on Quest version as Camera Animation cant work correct.
-<!--Might will updated will work for Quest version with VRC Constraints?-->
+I'm sorry :( It's Quest that it can't support with Camera Component in Unity
 
 ___
 
@@ -128,3 +127,5 @@ ___
 You can DM hppedeaf to show proof of your purchase on Booth, and hppedeaf will send you the key code. 
 
 ___
+
+<!--This Page is completed.-->
