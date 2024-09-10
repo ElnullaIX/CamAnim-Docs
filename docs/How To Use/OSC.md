@@ -219,6 +219,8 @@ ___
 
 you can transfer the .Json file to your friends for share or trade
 
+<ReactPlayer playing controls url='`https://youtu.be/g4rFKM2WEcA`'/>
+
 :::note
 
 "where can I find the .Json?" _It's in the folder Json_

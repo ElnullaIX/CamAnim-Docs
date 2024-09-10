@@ -12,3 +12,4 @@ date: 2024-09-10T01:59
 - change material shader unity for let you choose to colour for custom
 - fixed prefab manual installation
 - add background Saturation
+- Fix Orbit rotation

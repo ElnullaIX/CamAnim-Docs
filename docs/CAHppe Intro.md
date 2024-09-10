@@ -46,7 +46,10 @@ ___
 <ins>**!!! This is only for PC version, and can't Quest version because of this Camera Animation require need to use constraints to make it work. !!!**</ins>
 <p></p>
 
-<ins>**!!! Desktop Mode isn't support yet (Might will add in the future) !!!**</ins>
+<ins>**!!! Desktop Mode can be support!!!**</ins>
+<p></p>
+
+<ins>**!!! OSC is supported !!!**</ins>
 <p></p>
 
 <ins>**!!! For anyone who doesn't understand the difference between 'full system' and 'full system + support.' !!!**</ins>
