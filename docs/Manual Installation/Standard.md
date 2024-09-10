@@ -16,13 +16,11 @@ import TabItem from '@theme/TabItem';
 :::
 :::info
 
-**CAHppe v2.0.0 is working for manual installation now. Please check the video. We will add the instructions soon**
+**CAHppe v2.X.X is working for manual installation now. Please check the video. We will add the instructions soon**
 
 :::
 
-<ReactPlayer playing controls url='https://youtu.be/z3LoaGhcHwc?si=3xTvjJwBK6S4AG26'/>
-
-<ReactPlayer playing controls url=''/>
+<ReactPlayer  controls url='https://youtu.be/z3LoaGhcHwc?si=3xTvjJwBK6S4AG26'/>
 
 ---
 
