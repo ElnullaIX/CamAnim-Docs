@@ -43,22 +43,22 @@ Please don’t forget tag #CAHppe on any Social Media such as Tik-tok, Twitter, 
 
 ___
 
-<ins>**!!! This is only for PC version, and can't Quest version because of this Camera Shader that Quest don't support it. !!!**</ins>
+<ins>**!!! This is only for PC version, and can't Quest version because of this don't support the Camera Component!!!**</ins>
 <p></p>
 
 <ins>**!!! Desktop Mode can be support!!!**</ins>
 <p></p>
 
-<ins>**!!! OSC is supported !!!**</ins>
+<ins>**!!! OSC is supported!!!**</ins>
 <p></p>
 
-<ins>**!!! For anyone who doesn't understand the difference between 'full system' and 'full system + support.' !!!**</ins>
+<ins>**!!! For anyone who doesn't understand the difference between 'full system' and 'full system + support.'!!!**</ins>
 :::note
 
 "They are the same version; there is no difference. The second one with support just adds extra cost as a contribution."
 
 :::
-<ins>**!!! this package don't have VRCLens !!!**</ins>
+<ins>**!!! this package don't have VRCLens!!!**</ins>
 :::note
 
 "You can use Camera Animation without VRCLens but if you want CA linked with VRCLens, you need get it from their Gumroad"
