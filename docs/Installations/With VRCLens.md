@@ -17,7 +17,11 @@ require to get [VRCLens](https://hirabiki.gumroad.com/l/rpnel) from Gumroad
 **You need installation on Standard first and done Set up VRCLens first. Then you can start follow the tutorial here of how linked VRCLens with CAHppe :)**
 
 :::
+:::info INFO
 
+**This can work with Manual Installation CAHppe fine, so you can follow how to link it in here.**
+
+:::
 ___
 
 ### 1. Avatar ready

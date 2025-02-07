@@ -16,89 +16,151 @@ import TabItem from '@theme/TabItem';
 :::
 :::info
 
-**CAHppe v2.X.X is working for manual installation now. Please check the video. We will add the instructions soon**
+**CAHppe v2.X.X is working for manual installation now. Please check the video.**
 
 :::
 
 <ReactPlayer  controls url='https://youtu.be/z3LoaGhcHwc?si=3xTvjJwBK6S4AG26'/>
 
+:::tip Info
+
+### if you want link your CAHppe with VRCLens or VirtualLens2, you can go to Installation side.
+
+:::
+
+
+
+
+
+
+
+
 ---
 
 :::note
 
-#### Works with V1.3.2 of CAHppe. The new V2 of CAHppe will be add writing here soon. Thank you for be patience
+#### CAHppe 2.X.X is ready to use. Please updated your version latest!
 
 :::
 
-- Get your avatar ready with VRCLens in it (Caution, To ensure your avatar need free of parameter 34 bits Or 0 bits if you want to use loacl)
-
-- Go to find folder of Manual from Camera Animation
-
-:::tip
-
-"I can't find where folder?"
-It's in Assets / Hppedeaf / Camera Animation / Manual
-
-:::
-
-- Grab and drag VRCFury Prefab of RIGHT HAND or LEFT HAND (whatever your prefer left or right hand) to drop on your top of avatar (Not in Armature bones)
-
-<!-- //GIF HERE -->
-
-- Click right on the prefab and select "unpack"
-
-<!-- //GIF HERE -->
-
-- grab the "Head" and drag to drop in your Head from your Armature bones
-
-<!-- //GIF HERE -->
-
-- grab the "Hand Waypoints" and drag to drop in your right or left hand from your Armature bones
-
-<!-- //GIF HERE -->
-
-- and check the Hand Waypoints location in scene to making sure it's near your index finger.
-
-<!-- //GIF HERE -->
-
-- Change View as Local. check your Hand Waypoints in the scene to ensure the arrow is blue face toward from your finger index
-
-<!-- //GIF HERE -->
-
-- grab the "Target Player" drag to drop in your Chest from Armature bones, ensure the location is correct from 0,0,0 
-
-<!-- //GIF HERE -->
-
-- You need Avatars 3.0 Manager for FX and Parameter
-
-- Get your avatar on AV3 Manager and go to "Control" folder to find "CA FX WD ON"
-
-:::tip
-
-"I can't find where folder?"
-It's in Assets / Hppedeaf / Camera Animation / Control
-
-:::
-
-- Select AV3 FX "add animator to merge" and grab and drag "CA FX WD ON" fx to there and click "merge on current"
-
-<!-- //GIF HERE -->
-
-- Now go to Parameter in AV3 manager, go grab and drag "CA Parameter" from Control folder to put there and click "Copy parameters"
-
-<!-- //GIF HERE -->
-
-- Go to clik your avatar, check on your on Menu, open the Menu and click "add" and write "Camera Animation" or "CAHppe" whatever you prefered, change the Type to "Sub Menu" and grab and drag "Main Menu CA" from Control Folder to put in Sub Menu.
-
-- and go Publish!
-
-<!-- //GIF HERE -->
-
-<!-- //FULL TUTORIAL VIDEO HERE BRUH -->
-
+### 1. Avatar ready
+Get your avatar ready (Caution, To ensure your avatar need free of parameter 34 bits)
 :::note
 
-If you run into some issues problem, please contact hppedeaf on Discord, twitter or CAHppe server. :3
+Or 0 bit if you prefer everything to be local only, as other remote players won't be able to see your CA assets. (See the 9.)
 
 :::
-<!-- Hppe?!!! -->
+
+### 2. Manual Folder
+Go to find folder of Manual from Camera Animation
+
+:::tip
+
+"I can't find where folder?"
+
+It's in `Assets/Hppedeaf/Camera Animation v2/Manual`
+
+:::
+
+### 3. Put prefab in your avatar
+grab Manual prefab and drag to drop inside in your avatar.
+
+### 4. Move Waypoint
+Move your Hand Waypoint to locate your tip of index finger.
+
+![gif](@site/static/img/2.gif)
+
+:::tip Left Hand
+
+If you prefer to be Left hand, use this instead. Make sure the blue arrow is facing forward with red arrow down.
+![gif](@site/static/img/LeftHandArrows.gif)
+
+:::
+:::tip A-Pose
+
+If your avatar is in A-Pose, use this instead. Make sure the blue arrow is facing forward.
+![gif](@site/static/img/3.gif)
+
+:::
+
+
+### 5. unpack the prefrab.
+
+when you done locate waypoint on your index finger, go to unpack the prefrab "Camera Animation". Not the unpack completely.
+
+### 6. Locate your hand waypoint
+
+grab 'Hand Waypoint' and drag to drop in your bone Wrist.
+
+:::tip Right Hand
+
+Hip > Spine > Chest > Right Shoulder > Right Arm > Right Elbow > Right Wrist
+ 
+:::
+
+:::tip Left Hand
+
+Hip > Spine > Chest > Left Shoulder > Left Arm > Left Elbow > Left Wrist
+
+:::
+
+### 7. Locate your target player
+
+grab 'target player' and drag to drop in your bone neck.
+
+:::tip Transform
+
+Make sure both Position and Rotation all is in 0
+
+:::
+
+### 8. ScreenSpace
+
+Select 'ScreenSpace' as you can see the VRC Position Constraint. grab your bone head and drag to drop in 'Sources'
+
+### 9. AV3 Manager
+
+Open your AV3 Manager, put your avatar in it. then open the FX and select 'add animator to merge' then go find "CA v2" in Control folder and drag it to drop in AV3 Manager and click 'Merge on current'
+
+:::tip
+
+"I can't find where CA v2?"
+
+It's in `Assets/Hppedeaf/Camera Animation v2/Control`
+
+:::
+
+then open the Parameters and then drag "CA v2 Para" to drop in AV3 Manager and click 'Copy parameters'
+
+:::tip
+
+"I can't find where CA v2 Para?"
+
+It's in `Assets/Hppedeaf/Camera Animation v2/Control`
+
+:::
+:::tip Local Only
+
+or you can drag "CA v2 Para Local" to drop in AV3 Manager and click 'Copy parameters'
+
+It's in `Assets/Hppedeaf/Camera Animation v2/Control/local`
+
+:::
+
+### 10. Main Menu
+
+click your avatar and look into your VRC Avatar Descriptor and then scroll down to click your Menu to open
+
+once you got your Menu open, click the "+" to add new subMenu then grab "CA Main Menu" to drag to drop in Sub Menu
+
+:::tip
+
+"I can't find where CA Main Menu?"
+
+It's in `Assets/Hppedeaf/Camera Animation v2/Control`
+
+:::
+
+### 11. and PUBLISH!
+
+and you done it all. go publish it!
