@@ -5,7 +5,7 @@ sidebar_position: 1
 
 :::info Important
 
-#### This only works for CAHppe V2. Please make sure to keep your CAHppe version up to date.
+#### This only works for CAHppe V2.X.X Please make sure to keep your CAHppe version up to date.
 
 :::
 ### 1. Avatar ready

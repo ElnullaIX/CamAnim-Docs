@@ -3,9 +3,9 @@ title: With VirtualLens2
 sidebar_position: 3
 ---
 
-:::info
+:::info Important
 
-#### Work for CAHppe v2.0.0
+#### This only works for CAHppe V2.X.X Please make sure to keep your CAHppe version up to date.
 
 :::
 

@@ -9,11 +9,6 @@ import Tabs from '@theme/Tabs';
 
 import TabItem from '@theme/TabItem';
 
-:::warning
-
-### This page is under construction.
-
-:::
 :::info
 
 **CAHppe v2.X.X is working for manual installation now. Please check the video.**
@@ -22,9 +17,9 @@ import TabItem from '@theme/TabItem';
 
 <ReactPlayer  controls url='https://youtu.be/z3LoaGhcHwc?si=3xTvjJwBK6S4AG26'/>
 
-:::tip Info
+:::info
 
-### if you want link your CAHppe with VRCLens or VirtualLens2, you can go to Installation side.
+if you want to linked with VRClens or VirtualLens2, please go check in another installations, they will work fine with Manual Installation.
 
 :::
 
@@ -37,9 +32,9 @@ import TabItem from '@theme/TabItem';
 
 ---
 
-:::note
+:::info Important
 
-#### CAHppe 2.X.X is ready to use. Please updated your version latest!
+#### This only works for CAHppe V2.X.X Please make sure to keep your CAHppe version up to date.
 
 :::
 
@@ -164,3 +159,9 @@ It's in `Assets/Hppedeaf/Camera Animation v2/Control`
 ### 11. and PUBLISH!
 
 and you done it all. go publish it!
+
+:::info
+
+if you want to linked with VRClens or VirtualLens2, please go check in another installations, they will work fine with Manual Installation.
+
+:::

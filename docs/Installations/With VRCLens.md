@@ -9,7 +9,7 @@ require to get [VRCLens](https://hirabiki.gumroad.com/l/rpnel) from Gumroad
 
 :::info Important
 
-#### This only works for CAHppe V2. Please make sure to keep your CAHppe version up to date.
+#### This only works for CAHppe V2.X.X Please make sure to keep your CAHppe version up to date.
 
 :::
 :::info IMPORTANT
