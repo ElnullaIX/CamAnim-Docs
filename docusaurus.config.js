@@ -1,94 +1,70 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import { themes as prismThemes } from 'prism-react-renderer';
+
+const GUMROAD = 'https://elnullaix.gumroad.com/l/CameraAnimationElnullaIX';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CamAnim Docs',
-  tagline: 'Camera animation system for VRChat and Unity',
+  tagline: 'Smooth camera animations for your VRChat avatar',
   favicon: 'img/CALogo.ico',
 
-  // Set the production url of your site here
   url: 'https://elnullaix.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/CamAnim-Docs/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'elnullaix', // Usually your GitHub org/user name.
-  projectName: 'CamAnim-Docs', // Usually your repo name.
-  trailingSlash: false, // Explicitly set trailingSlash for better SEO
+  organizationName: 'elnullaix',
+  projectName: 'CamAnim-Docs',
+  trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
+  onBrokenAnchors: 'throw',
 
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
-  
+  i18n: { defaultLocale: 'en', locales: ['en'] },
 
   presets: [
     [
       '@docusaurus/preset-classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/ElnullaIX/CamAnim-Docs/tree/master/',
-          
-          showLastUpdateAuthor: true,
-        },
+        docs: { sidebarPath: './sidebars.js' },
         blog: {
-          blogTitle: 'Updates',
-          blogDescription: 'Updates Description',
-          postsPerPage: 'ALL',
-          showReadingTime: false,
-          readingTime: ({ content, frontMatter, defaultReadingTime }) =>
-            frontMatter.hide_reading_time ? undefined : defaultReadingTime({ content }),
           path: 'updates',
           routeBasePath: 'updates',
+          blogTitle: 'Updates',
+          blogDescription: 'What changed in each CamAnim version',
+          blogSidebarTitle: 'All updates',
+          blogSidebarCount: 'ALL',
+          postsPerPage: 'ALL',
+          showReadingTime: false,
         },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+        theme: { customCss: './src/css/custom.css' },
       }),
+    ],
+  ],
+
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      { hashed: true, indexBlog: true, docsRouteBasePath: '/docs', blogRouteBasePath: '/updates', highlightSearchTermsOnTargetPage: true },
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
-      },
-      image: 'img/CA_Banner.png',
+      colorMode: { defaultMode: 'dark', disableSwitch: false, respectPrefersColorScheme: true },
+      image: 'img/CamAnim_Card.png',
       navbar: {
         title: 'CamAnim Docs',
         hideOnScroll: true,
-        logo: {
-          alt: 'CamAnim Logo',
-          src: 'img/CALogo.png',
-        },
+        logo: { alt: 'CamAnim logo', src: 'img/CALogo.png' },
         items: [
-          {
-            type: 'search',
-            position: 'left',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'CamAnim Intro',
-          },
+          { to: '/docs/intro', label: 'Get started', position: 'left' },
+          { to: '/docs/desktop-app', label: 'Desktop app', position: 'left' },
+          { to: '/updates', label: 'Updates', position: 'left' },
+          { type: 'search', position: 'right' },
+          { href: GUMROAD, label: 'Buy on Gumroad', position: 'right', className: 'navbar-buy' },
         ],
       },
       footer: {
@@ -97,57 +73,31 @@ const config = {
           {
             title: 'Docs',
             items: [
-              {
-                label: 'CamAnim Intro',
-                to: '/docs/CAHppe Intro',
-              },
-              {
-                label: 'Installation',
-                to: '/docs/Installations/Standard',
-              },
-              {
-                label: 'How to use',
-                to: '/docs/How%20To%20Use/Standard',
-              },
+              { label: 'Get started', to: '/docs/intro' },
+              { label: 'Installation', to: '/docs/install/standard' },
+              { label: 'Desktop app', to: '/docs/desktop-app' },
+              { label: 'FAQ', to: '/docs/faq' },
             ],
           },
           {
             title: 'Community',
             items: [
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/KFPUU3pEKg',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/hppedeaf',
-              },
-              {
-                label: 'Gumroad',
-                href: 'https://elnullaix.gumroad.com/l/CameraAnimationElnullaIX',
-              },
-              {
-                label: 'Give feedback',
-                href: 'https://camera-animation.canny.io',
-              },
+              { label: 'Discord', href: 'https://discord.gg/KFPUU3pEKg' },
+              { label: 'X', href: 'https://x.com/ElnullaIX' },
+              { label: 'Give feedback', href: 'https://camera-animation.canny.io' },
             ],
           },
           {
-            title: 'Logs',
+            title: 'More',
             items: [
-              {
-                label: 'Updates',
-                to: '/updates',
-              },
+              { label: 'Updates', to: '/updates' },
+              { label: 'Gumroad', href: GUMROAD },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ElnullaIX. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} ElnullaIX`,
       },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
+      prism: { theme: prismThemes.github, darkTheme: prismThemes.dracula },
     }),
 };
 

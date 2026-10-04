@@ -1,24 +1,23 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+.hero {
+  padding: 4rem 0 3rem;
+  border-bottom: 1px solid var(--ca-border);
+  background: radial-gradient(ellipse at 75% 0%, var(--ca-accent-soft), transparent 60%);
 }
+.heroInner { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 3rem; align-items: center; }
+.logo { width: 72px; height: 72px; }
+.title { font-size: 3.5rem; letter-spacing: .04em; margin: .5rem 0; color: var(--ifm-color-primary); }
+.title span { color: var(--ifm-font-color-base); }
+.tagline { font-size: 1.25rem; color: var(--ca-muted); }
+.buttons { display: flex; flex-wrap: wrap; gap: 12px; }
+.shot { width: 100%; border: 1px solid var(--ca-border); border-radius: 14px; box-shadow: 0 20px 60px rgba(0, 0, 0, .35); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.card { padding: 20px; background: var(--ca-surface); border: 1px solid var(--ca-border); border-radius: 14px; }
+.card h3 { margin-bottom: .4rem; color: var(--ifm-color-primary); }
+.card p { margin: 0; color: var(--ca-muted); }
+.band { padding: 3rem 0; text-align: center; background: var(--ca-surface); border-top: 1px solid var(--ca-border); }
+.band p { color: var(--ca-muted); }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+@media (max-width: 996px) {
+  .heroInner { grid-template-columns: minmax(0, 1fr); }
+  .title { font-size: 2.6rem; }
 }
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
