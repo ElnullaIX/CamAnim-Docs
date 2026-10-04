@@ -29,7 +29,9 @@ Send ElnullaIX a message on [Discord](https://discord.gg/KFPUU3pEKg) with proof 
 3. Check the status at the top of the app:
    - **VRChat connected**: all good.
    - **Waiting for VRChat**: VRChat isn't sending anything yet. See [Troubleshooting](#troubleshooting).
-   - **OSC error**: another program is using the app's port. See [Troubleshooting](#troubleshooting).
+   - **OSC error**: the app couldn't open its OSC connection. See [Troubleshooting](#troubleshooting).
+
+The app finds VRChat, and VRChat finds the app, through **OSCQuery**, so it works alongside other OSC apps like VRCFT or OVR Toolkit.
 
 ![OSC turns on by itself when the app is open](@site/static/img/Auto_Active_OSC.webp)
 
@@ -87,7 +89,7 @@ Click **Compact** (top right) to shrink the app into a small window that stays o
 
 ![Settings](@site/static/img/app/settings.png)
 
-- **OSC IP address** and **ports**: leave them at `127.0.0.1`, **9000** (send) and **9001** (listen) unless you changed VRChat's OSC ports. **Discover via OSCQuery** tries to find them for you.
+- **OSC IP address** and **ports**: leave them at `127.0.0.1`, **9000** (send) and **9001** (listen) unless you changed VRChat's OSC ports. With VRChat running, **Discover via OSCQuery** fills in VRChat's address and port for you.
 - **Theme**: System, Dark or Light.
 - **Username**: shown as the author of the paths you record, so friends see who made them.
 - **Backup all animations**, **Open animations folder**, and **Log out**.
@@ -102,9 +104,13 @@ Click **Open animations folder** in Settings, or **Show in Explorer** on a card,
 
 ## Troubleshooting
 
-### "Port already in use" or OSC error
+### "Port 9001 is used by another app"
 
-Another program is using the app's listen port (9001). Often it's a second copy of CamAnim or another OSC app. Close it, or change the port in Settings.
+That's fine: another OSC app already has port 9001, so CamAnim listens on a free port and tells VRChat about it through OSCQuery. Both apps keep working.
+
+### OSC error
+
+The app couldn't open its OSC connection. Restart the app; if it keeps happening, ask on [Discord](https://discord.gg/KFPUU3pEKg).
 
 ### Stuck on "Waiting for VRChat"
 
