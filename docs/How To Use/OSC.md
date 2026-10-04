@@ -182,7 +182,7 @@ Press the + button in OSC is saved your waypoints position, can using same posit
 :::note
 
 the default coordinates (0, 0, 0) is so many different place, off-screen or in an unusual place. But you can using Reset Place to connected with you
-([how to reset place](https://elnullaix.github.io/Camera-Animation-Hppe-Docs/docs/How%20To%20Use/Standard#reset-place)) it was recommended to use Reset Place first then you can set waypoints anywhere but you can use Attach to the player to move to any place you want in another world.
+([how to reset place](/docs/How%20To%20Use/Standard#reset-place)) it was recommended to use Reset Place first then you can set waypoints anywhere but you can use Attach to the player to move to any place you want in another world.
 
 :::
 
