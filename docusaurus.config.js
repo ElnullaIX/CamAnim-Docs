@@ -2,6 +2,9 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 
 const GUMROAD = 'https://elnullaix.gumroad.com/l/CameraAnimationElnullaIX';
+// GitHub Actions sets GITHUB_REPOSITORY ("owner/repo"); the site lives at /<repo>/, so a preview repo
+// (e.g. CamAnim-Docs-Preview) gets its own address. Local builds use the real site's name.
+const REPO = process.env.GITHUB_REPOSITORY?.split('/')[1] || 'CamAnim-Docs';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -10,9 +13,9 @@ const config = {
   favicon: 'img/CALogo.ico',
 
   url: 'https://elnullaix.github.io',
-  baseUrl: '/CamAnim-Docs/',
+  baseUrl: `/${REPO}/`,
   organizationName: 'elnullaix',
-  projectName: 'CamAnim-Docs',
+  projectName: REPO,
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
