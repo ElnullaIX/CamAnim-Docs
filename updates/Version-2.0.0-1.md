@@ -5,4 +5,4 @@ date: 2024-09-08T21:00
 ---
 
 - Released to full public
-- CAHppe's Docs website public
+- CamAnim Docs website public
