@@ -16,12 +16,12 @@ const config = {
   url: 'https://elnullaix.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Camera-Animation-Hppe-Docs/',
+  baseUrl: '/CamAnim-Docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'elnullaix', // Usually your GitHub org/user name.
-  projectName: 'Camera-Animation-Hppe-Docs', // Usually your repo name.
+  projectName: 'CamAnim-Docs', // Usually your repo name.
   trailingSlash: false, // Explicitly set trailingSlash for better SEO
   deploymentBranch: 'gh-pages',
 
@@ -41,7 +41,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/elnullaix/Camera-Animation-Hppe-Docs/tree/master/',
+            'https://github.com/ElnullaIX/CamAnim-Docs/tree/master/',
           
           showLastUpdateAuthor: true,
         },
