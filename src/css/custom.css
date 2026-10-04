@@ -72,3 +72,5 @@
 .footer--dark { --ifm-footer-background-color: #0f0f12; border-top: 1px solid #2c2c33; }
 .menu__link--active:not(.menu__link--sublist) { background: var(--ca-accent-soft); }
 .markdown img { border-radius: 10px; }
+/* YouTube players (react-player) default to a fixed 640×360: shrink them to fit phones, keep 16:9 */
+.markdown div[style*="width: 640px"] { width: 100% !important; max-width: 640px; height: auto !important; aspect-ratio: 16 / 9; }
