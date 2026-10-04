@@ -21,7 +21,7 @@ function HomepageHeader() {
             <Link
               className="button button--secondary button--lg"
               to="/docs/CAHppe Intro">
-              CAHppe Intro
+              CamAnim Intro
             </Link>
           </div>
           <div className={styles.buttons} style={{margin: '0px 10px'}}>

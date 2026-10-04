@@ -8,19 +8,19 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Camera Animation Hppe Docs',
-  tagline: 'System for Camera Animation Hppe in Unity and in VRChat',
+  title: 'CamAnim Docs',
+  tagline: 'Camera animation system for VRChat and Unity',
   favicon: 'img/CALogo.ico',
 
   // Set the production url of your site here
-  url: 'https://hppedeaf.github.io',
+  url: 'https://elnullaix.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/Camera-Animation-Hppe-Docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'hppedeaf', // Usually your GitHub org/user name.
+  organizationName: 'elnullaix', // Usually your GitHub org/user name.
   projectName: 'Camera-Animation-Hppe-Docs', // Usually your repo name.
   trailingSlash: false, // Explicitly set trailingSlash for better SEO
   deploymentBranch: 'gh-pages',
@@ -41,7 +41,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/hppedeaf/Camera-Animation-Hppe-Docs/tree/main/',
+            'https://github.com/elnullaix/Camera-Animation-Hppe-Docs/tree/master/',
           
           showLastUpdateAuthor: true,
         },
@@ -72,10 +72,10 @@ const config = {
       },
       image: 'img/CA_Banner.png',
       navbar: {
-        title: 'Camera Animation Hppe Docs',
+        title: 'CamAnim Docs',
         hideOnScroll: true,
         logo: {
-          alt: 'CAHppe Logo',
+          alt: 'CamAnim Logo',
           src: 'img/CALogo.png',
         },
         items: [
@@ -87,7 +87,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'CAHppe Intro',
+            label: 'CamAnim Intro',
           },
         ],
       },
@@ -98,7 +98,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'CAHppe Intro',
+                label: 'CamAnim Intro',
                 to: '/docs/CAHppe Intro',
               },
               {
@@ -124,7 +124,7 @@ const config = {
               },
               {
                 label: 'Gumroad',
-                href: 'https://hppedeaf.gumroad.com/l/CameraAnimationHppe',
+                href: 'https://elnullaix.gumroad.com/l/CameraAnimationElnullaIX',
               },
               {
                 label: 'Give feedback',
@@ -142,7 +142,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} hppedeaf, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ElnullaIX. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
