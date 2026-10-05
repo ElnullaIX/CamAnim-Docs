@@ -28,15 +28,13 @@ Turns CamAnim on.
 
 ### Waypoints
 
-Place points around you. The camera follows them as a path.
+Place points around you. The camera follows them as a path, through every waypoint.
 
 ![Placing waypoints](@site/static/img/WayPoints.webp)
 
-:::tip
-
-Press and hold the button to place a waypoint, then let go.
-
-:::
+- **+ Add waypoint:** hold it to place the next waypoint at your hand, then let go.
+- **− Remove last:** removes the last waypoint you placed.
+- **Easing:** how the camera moves between waypoints. Nothing on = Linear (steady). **Ease every waypoint** slows down at each waypoint, **Ease start and end** starts and stops smoothly, **Hold (stop-motion)** jumps from waypoint to waypoint.
 
 ### Play
 
@@ -138,9 +136,7 @@ Press and hold **Reset** for 3 seconds.
 
 :::tip Remove one waypoint
 
-Press and hold the button of the waypoint number you want to delete, then move it close to your other hand.
-
-![Removing one waypoint](@site/static/img/RemoveWaypoint.webp)
+Grab the waypoint (touch it and make a fist), then move it close to your other hand. Or use **− Remove last** for the last one.
 
 :::
 

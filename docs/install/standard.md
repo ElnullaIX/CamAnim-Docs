@@ -10,50 +10,26 @@ These steps are for CamAnim v2. Keep CamAnim up to date.
 
 :::
 
-## 1. Get your avatar ready
+## 1. Open the installer
 
-Your avatar needs **34 free parameter bits**.
+In Unity: **Tools → CamAnim → Installer**.
 
-:::note Local only (0 bits)
+## 2. Pick your avatar
 
-Want everything local only? Use the version in `Assets/ElnullaIX/CamAnim/Control/Local`. It needs 0 bits, but other players won't see your CamAnim camera and objects.
+Drop your avatar from the Hierarchy into the **Avatar** field. Fix anything marked with a red cross. The parameter budget line shows how many bits CamAnim needs (turn **Visible to other players** off to use 0).
 
-![The Local folder](@site/static/img/Local.png)
+## 3. Choose your setup
 
-:::
+- **Waypoints:** how many waypoints you can place in VRChat, from 2 to 64.
+- **Hand:** the hand you place waypoints with. The installer puts Hand Waypoints at your index fingertip.
+- **Desktop app (OSC)**, **Visible to other players (Sync)**, **VRCLens**, and colours.
 
-## 2. Find the CamAnim folder
+## 4. Install
 
-It's in `Assets/ElnullaIX/CamAnim`.
+Press **Install**. The result shows in the window; **Ctrl+Z** undoes it. Changed your mind later? Pick the avatar again, change the setup, press **Update**.
 
-## 3. Add the prefab
-
-Drag the **CamAnim** prefab onto the top of your avatar (not inside the Armature bones).
-
-![Dragging the prefab onto the avatar](@site/static/img/1.gif)
-
-## 4. Place the Hand Waypoints
-
-In the CamAnim prefab, select **Hand Waypoints** (the blue ball) and move it next to the tip of your right or left index finger.
-
-![Moving Hand Waypoints to the index finger](@site/static/img/2.gif)
-
-:::tip Left hand
-
-For the left hand, turn it so the blue arrow faces forward and the red arrow points down.
-
-![Left hand rotation](@site/static/img/image.png)
-![Left hand position](@site/static/img/image1.png)
-![Left hand arrows](@site/static/img/LeftHandArrows.gif)
-
-:::
-
-:::tip A-pose
-
-If your avatar is in A-pose, make sure the blue arrow faces forward.
-
-![A-pose arrows](@site/static/img/3.gif)
-
+:::note
+The installer makes an animator for your avatar in `Assets/ElnullaIX/CamAnim/Generated/<avatar name>`. Don't edit it; press **Update** instead.
 :::
 
 ## 5. Upload
