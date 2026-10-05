@@ -29,7 +29,7 @@ Drop your avatar from the Hierarchy into the **Avatar** field. Fix anything mark
 Press **Install**. The result shows in the window; **Ctrl+Z** undoes it. Changed your mind later? Pick the avatar again, change the setup, press **Update**.
 
 :::note
-The installer makes an animator for your avatar in `Assets/ElnullaIX/CamAnim/Generated/<avatar name>`. Don't edit it; press **Update** instead.
+The installer makes one animator per waypoint count in `Assets/ElnullaIX/CamAnim/Generated` (for example `CamAnim FX 12`). Avatars with the same count share it. Don't edit or delete these; press **Update** instead. When you update CamAnim, don't delete the `CamAnim` folder.
 :::
 
 ## 5. Upload
