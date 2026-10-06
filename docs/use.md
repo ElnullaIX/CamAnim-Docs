@@ -28,7 +28,7 @@ Turns CamAnim on.
 
 ### Waypoints
 
-Place points around you. The camera follows them as a path, through every waypoint. While you place them, the camera sits at your hand, so the screen shows the shot from where the next waypoint goes. A line shows the path after each change.
+Place points around you. The camera follows them as a path, through every waypoint. While you place them, the camera sits at your hand, so the screen shows the shot from where the next waypoint goes. A line keeps tracing the path while you edit, so it follows every change within a few seconds.
 
 ![Placing waypoints](@site/static/img/WayPoints.webp)
 
