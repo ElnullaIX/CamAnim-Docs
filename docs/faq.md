@@ -45,7 +45,7 @@ See [Updates](/updates) for what changed.
 
 ## VRCFury doesn't work
 
-Update VRCFury to the latest version from the [VRCFury website](https://vrcfury.com/download). It works with Unity 2019 and Unity 2022. Prefer not to use VRCFury? Follow the [manual installation](./install/manual.md).
+Update VRCFury to the latest version from the [VRCFury website](https://vrcfury.com/download). It works with Unity 2019 and Unity 2022. Prefer not to use VRCFury? Pick **Modular Avatar** in the installer instead, or follow the [manual installation](./install/manual.md).
 
 ## Why doesn't it work on Quest?
 

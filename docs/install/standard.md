@@ -20,6 +20,7 @@ Drop your avatar from the Hierarchy into the **Avatar** field. Fix anything mark
 
 ## 3. Choose your setup
 
+- **Install with:** **VRCFury** or **Modular Avatar**, whichever your other avatar tools use. If only one is in your project, the installer picks it.
 - **Waypoints:** how many waypoints you can place in VRChat, from 2 to 64.
 - **Hand:** the hand you place waypoints with. The installer puts Hand Waypoints at your index fingertip.
 - **Desktop app (OSC)**, **Visible to other players (Sync)**, **VRCLens**, and colours.
@@ -35,6 +36,6 @@ The installer makes one animator per waypoint count in `Assets/ElnullaIX/CamAnim
 
 ## 5. Upload
 
-Upload your avatar. VRCFury sets up the FX layer and parameters for you. Done! ♡
+Upload your avatar. VRCFury or Modular Avatar sets up the FX layer, menu and parameters for you. Done! ♡
 
 ![Uploading the avatar](@site/static/img/4.gif)

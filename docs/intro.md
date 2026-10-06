@@ -65,9 +65,9 @@ When CamAnim is linked with VRCLens, CamAnim's zoom is removed and VRCLens's zoo
    - [With VRCLens](./install/vrclens.md): link CamAnim to VRCLens.
    - [With VirtualLens2](./install/virtuallens2.md): link CamAnim to VirtualLens2.
 
-:::tip Use VRCFury (recommended)
+:::tip Use VRCFury or Modular Avatar
 
-VRCFury sets up the FX layer and parameters for you. Download the latest version from the [VRCFury website](https://vrcfury.com/download). Prefer to do it by hand? Follow the [manual installation](./install/manual.md).
+The installer works with either: it sets up the FX layer, menu and parameters for you. Get [VRCFury](https://vrcfury.com/download) or [Modular Avatar](https://modular-avatar.nadena.dev/) (both are in the VRChat Creator Companion). Prefer to do it by hand? Follow the [manual installation](./install/manual.md).
 
 :::
 
