@@ -27,9 +27,13 @@ Send ElnullaIX a message on [Discord](https://discord.gg/KFPUU3pEKg) with proof 
 1. In VRChat, open the Action Menu › **Options** › **OSC** and make sure it's **Enabled**.
 2. Open the CamAnim app. It turns on **OSC** in your avatar's CamAnim menu by itself, and turns it off again when you close the app.
 3. Check the status at the top of the app:
-   - **VRChat connected**: all good.
+   - **Connected · ready**: all good.
+   - **Avatar needs an OSC reset**: VRChat doesn't know some of the avatar's CamAnim values yet. Click the status to see what's missing and how to fix it (usually Action Menu › **Options** › **OSC** › **Reset Config**). Record and Send wait until it's fixed.
    - **Waiting for VRChat**: VRChat isn't sending anything yet. See [Troubleshooting](#troubleshooting).
+   - **VRChat stopped answering**: shown while recording when nothing has arrived for 10 seconds.
    - **OSC error**: the app couldn't open its OSC connection. See [Troubleshooting](#troubleshooting).
+
+Click the status any time to check the avatar again: hand position, hand rotation, OSC hand and waypoint count each get a ✓ or ✗.
 
 The app finds VRChat, and VRChat finds the app, through **OSCQuery**, so it works alongside other OSC apps like VRCFT or OVR Toolkit.
 
@@ -50,7 +54,7 @@ Your saved paths show up as cards, newest first. Each card shows a drawing of th
 
 - **Drag** to turn the view, **scroll** to zoom, and press **Tab** to hide the panels. **Reset view** fits the whole path again.
 - Click a waypoint in the list to select it. The camera in VRChat jumps to that waypoint.
-- Use the sliders to move or turn the selected waypoint. VRChat updates live.
+- Use the sliders to move (in metres) or turn (in degrees) the selected waypoint. VRChat updates live.
 - Press **▶** to preview the path in the 3D view.
 - **Save** keeps your changes. **Save as…** makes a copy with a new name.
 
@@ -58,14 +62,19 @@ Your saved paths show up as cards, newest first. Each card shows a drawing of th
 
 1. Click **● New recording** (top right).
 2. In VRChat, place your waypoints as usual with the CamAnim menu.
-3. The app follows along: the live camera moves in the 3D view and each waypoint appears as you place it. The badge shows which waypoint you're on.
+3. The app follows along: the live camera moves in the 3D view and the badge shows which waypoint you're holding. Each waypoint is saved when you let it go, at the spot where your hand was last still, so letting go never adds a jolt.
 4. Click **■ Stop**, give the path a name, and it's saved.
 
 ![Recording a new path](@site/static/img/app/record.png)
 
 ## Send to VRChat
 
-Open a path and click **Send to VRChat**. The app sends every waypoint to your avatar, one by one, with a progress bar. Then press **Play** in your CamAnim menu.
+Open a path and click **Send to VRChat**, then pick:
+
+- **Replace**: clears the waypoints on your avatar first, then places the path.
+- **Add**: places the path after the waypoints already there.
+
+The path is placed around where CamAnim is placed. The app waits for your avatar to confirm each waypoint before the next one, so nothing gets skipped when VRChat is busy. If a waypoint doesn't place, it stops and tells you why (usually: CamAnim is off, or you're gripping). Then press **Play** in your CamAnim menu.
 
 :::tip Using a path in another world
 
@@ -117,6 +126,14 @@ The app couldn't open its OSC connection. Restart the app; if it keeps happening
 - Turn on OSC in VRChat: Action Menu › **Options** › **OSC** › **Enabled**.
 - Make sure CamAnim is enabled on your avatar.
 - Just added CamAnim to an avatar you used with OSC before? Use Action Menu › **Options** › **OSC** › **Reset Config** so VRChat picks up the new parameters.
+
+### "Avatar needs an OSC reset"
+
+VRChat keeps a copy of each avatar's OSC values and doesn't always notice when they change. In VRChat: Action Menu › **Options** › **OSC** › **Reset Config**, then switch avatars or reload this one. If the check says the desktop-app option isn't installed, reinstall CamAnim with **Desktop app (OSC)** on.
+
+### Paths saved with an older app version
+
+They open as before: the app converts their positions to metres and their rotations to degrees the first time you open them.
 
 ### My license key isn't accepted
 
