@@ -23,6 +23,7 @@ Drop your avatar from the Hierarchy into the **Avatar** field. Fix anything mark
 - **Waypoints:** how many waypoints you can place in VRChat, from 2 to 64.
 - **Hand:** the hand you place waypoints with. The installer puts Hand Waypoints at your index fingertip.
 - **Desktop app (OSC)**, **Visible to other players (Sync)**, **VRCLens**, and colours.
+- **Show path points (debug cubes)** (under Advanced): puts a small cube on every point that builds the camera's curve, so you can see it in VRChat. For testing only: turn it off and press **Update** before you share the avatar.
 
 ## 4. Install
 

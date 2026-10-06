@@ -28,7 +28,7 @@ Turns CamAnim on.
 
 ### Waypoints
 
-Place points around you. The camera follows them as a path, through every waypoint.
+Place points around you. The camera follows them as a path, through every waypoint. While you place them, the camera sits at your hand, so the screen shows the shot from where the next waypoint goes. A line shows the path after each change.
 
 ![Placing waypoints](@site/static/img/WayPoints.webp)
 
@@ -44,7 +44,7 @@ The camera follows your waypoints along the path.
 
 ### Pause
 
-Pauses the camera halfway. It stays where it is.
+Slows the camera down smoothly until it stops where it is. Press it again to carry on at your speed.
 
 ![Pause](@site/static/img/Pause.webp)
 
@@ -74,7 +74,7 @@ Opens the [Camera Environment menu](#camera-environment-menu): background, hidin
 
 ### Speed
 
-Makes the camera move slower or faster along the path.
+One radial for speed and direction: the middle stops the camera, right moves it forward (faster the further right), left moves it backward along the path. The camera keeps the same speed on long and short parts of the path.
 
 ![Speed](@site/static/img/Speed.webp)
 
