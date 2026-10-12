@@ -28,7 +28,7 @@ Turns CamAnim on.
 
 ### Waypoints
 
-Place points around you. The camera follows them as a path, through every waypoint. While you place them, the camera sits at your hand, so the screen shows the shot from where the next waypoint goes. A glowing line joins your waypoints while you edit and moves with them at once; with **Loop** on it also joins the last waypoint back to the first. It hides while the camera plays.
+Place points around you. The camera follows them as a path, through every waypoint. While you place them, the camera sits at your hand, so the screen shows the shot from where the next waypoint goes. A glowing line traces the curve through your waypoints while you edit and moves with them at once; with **Loop** on it also curves from the last waypoint back to the first. It hides while the camera plays.
 
 ![Placing waypoints](@site/static/img/WayPoints.webp)
 
