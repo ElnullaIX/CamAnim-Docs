@@ -20,7 +20,7 @@ Open the **CamAnim** prefab › **Waypoints**, select a waypoint, and change the
 
 ### Path line colour
 
-Open the **CamAnim** prefab, select **Bezier Curves 1**, and change the colour in its **Trail Renderer**. Done!
+Pick it in the installer (**Tools › CamAnim › Installer**) under **Path line**, then press **Install** or **Update**. The colour is saved on the **Path Rope** material, so it applies to every avatar using CamAnim in this project.
 
 ![Changing the path line colour](@site/static/img/LineColours.webp)
 
