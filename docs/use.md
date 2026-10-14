@@ -179,7 +179,7 @@ Switches between portrait and landscape.
 
 ### Orbit
 
-The camera circles around you. See the [Orbit menu](#orbit-menu).
+The camera circles you, a spot you place or another player, in a circle, spiral or arc. See the [Orbit menu](#orbit-menu).
 
 ### Centre Player
 
@@ -197,11 +197,51 @@ OSC needs the CamAnim desktop app.
 
 ## Orbit menu
 
-### Orbit Enabled
+The camera circles a centre (you, a spot you place, or another player) and always looks at it, with the horizon level.
 
-Turns on orbiting around you.
+### Orbit
 
-![Orbit Enabled](@site/static/img/OrbitEnabled.webp)
+Turns Orbit on. **Play**, **Pause** and **Stop** work the same as for the path: Pause and Speed 0 % stop the camera where it
+is, Stop brings it back to the front.
+
+### Shape
+
+- **Circle:** goes all the way round. **Amount** stretches it into an oval (up to twice as wide side to side).
+- **Spiral:** circles while rising, then comes back down (2 laps up, 2 laps down). **Amount** sets how high it climbs (up to 3 m).
+- **Arc:** swings back and forth across the front. **Amount** sets how wide the swing is (60° to 300°).
+
+Changing the shape while it plays glides the camera to the new one in about a second.
+
+### Size
+
+How far the camera stays from the centre: 0.5 m to 10 m.
+
+### Height
+
+The camera's height above the centre: −1 m to +3 m.
+
+### Setup
+
+- **Aim:** the height the camera looks at, from the centre's feet to 2.5 m above.
+- **Speed:** the same Speed and Reverse as the path. 100 % is one lap in 5 seconds.
+- **Centre:** what the camera circles:
+  - **Me** (the default): you. It follows where you go, not which way you turn.
+  - **Orbit Free:** a spot you place anywhere (a place, an object, the middle of a group). Hold **Move Orbit Free** to carry
+    it in your hand, then let go to drop it.
+  - **Other player:** the friend you attached with Look at Remote Player.
+
+  Tap the centre that is on to go back to **Me**. Turning Orbit Free off keeps its spot for next time.
+- **Zoom:** zooms the camera in or out.
+
+The front of every shape is the way you (or the other player) face when you press Play.
+
+## Centre Player menu
+
+### Centre Player Enabled
+
+Turns on Centre Player. When you see a red circle on the floor, place your waypoints wherever you like, press **Attach Player**, then **Play**!
+
+![Centre Player](@site/static/img/CentrePlayerPlay.webp)
 
 ### Reset Place
 
@@ -228,59 +268,3 @@ Click and hold **Reset Place**. When the red circle disappears, let go: it moves
 Some worlds put their centre (0, 0, 0) off-screen or somewhere odd. That depends on the world, not on CamAnim.
 
 :::
-
-### Attach Player
-
-Attaches CamAnim to you so it moves with you.
-
-![Attach Player](@site/static/img/Attach.webp)
-
-## Orbit settings
-
-### Height
-
-Sets the camera height.
-
-![Height](@site/static/img/Height.webp)
-
-### Diameter
-
-Sets the size of the circle.
-
-![Diameter](@site/static/img/Diameter.webp)
-
-### Play (Orbit)
-
-Press Play and the camera circles around you!
-
-![Play Orbit](@site/static/img/PlayOrbit.webp)
-
-### Orbit Free Active
-
-Turns on Free Orbit.
-
-![Orbit Free Active](@site/static/img/OrbitFreeEnabled.webp)
-
-### Orbit Free
-
-Move the orbit anywhere you like.
-
-![Orbit Free](@site/static/img/OrbitFree.webp)
-
-:::tip
-
-Set **Height** to 0 when you use Orbit Free (recommended).
-
-:::
-
-### Orbit Free Play
-
-![Orbit Free Play](@site/static/img/PlayOrbitFree.webp)
-
-## Centre Player menu
-
-### Centre Player Enabled
-
-Turns on Centre Player. When you see a red circle on the floor, place your waypoints wherever you like, press **Attach Player**, then **Play**!
-
-![Centre Player](@site/static/img/CentrePlayerPlay.webp)
