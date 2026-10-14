@@ -228,7 +228,8 @@ The camera's height above the centre: −1 m to +3 m.
   - **Me** (the default): you. It follows where you go, not which way you turn.
   - **Orbit Free:** a spot you place anywhere (a place, an object, the middle of a group). Hold **Move Orbit Free** to carry
     it in your hand, then let go to drop it.
-  - **Other player:** the friend you attached with Look at Remote Player.
+  - **Other player:** a friend. Attach them first with **Look at Remote Player** (Settings) and leave it on; the camera circles
+    their feet and the front is the way they face when you press Play.
 
   Tap the centre that is on to go back to **Me**. Turning Orbit Free off keeps its spot for next time.
 - **Zoom:** zooms the camera in or out.
