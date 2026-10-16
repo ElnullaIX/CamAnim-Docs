@@ -179,7 +179,7 @@ Switches between portrait and landscape.
 
 ### Orbit
 
-The camera circles you, a spot you place or another player, in a circle, spiral or arc. See the [Orbit menu](#orbit-menu).
+The camera circles you or a spot you place, in a circle, spiral or arc. See the [Orbit menu](#orbit-menu).
 
 ### Centre Player
 
@@ -197,7 +197,7 @@ OSC needs the CamAnim desktop app.
 
 ## Orbit menu
 
-The camera circles a centre (you, a spot you place, or another player) and always looks at it, with the horizon level.
+The camera circles a centre (you or a spot you place) and always looks at it, with the horizon level.
 
 ### Orbit
 
@@ -228,8 +228,6 @@ The camera's height above the centre: −1 m to +3 m.
   - **Me** (the default): you. It follows where you go, not which way you turn.
   - **Orbit Free:** a spot you place anywhere (a place, an object, the middle of a group). Hold **Move Orbit Free** to carry
     it in your hand, then let go to drop it.
-  - **Other player:** a friend. Attach them first with **Look at Remote Player** (Settings) and leave it on; the camera circles
-    their feet and the front is the way they face when you press Play.
 
   Tap the centre that is on to go back to **Me**. Turning Orbit Free off keeps its spot for next time.
 - **Zoom:** zooms the camera in or out.
